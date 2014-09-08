@@ -15,4 +15,12 @@
     top.on('mousemove',function () {
         top.style('background-color',d3.hsl(hueScale(d3.event.pageY),saturationScale(d3.event.pageX),0.5));
     });
+
+    top.on('touchmove',function () {
+        top.style('background-color',d3.hsl(hueScale(document.body.scrollTop),saturationScale(d3.event.pageX),0.5));
+    });
+
+    top.on('scroll',function () {
+        top.style('background-color',d3.hsl(hueScale(document.body.scrollTop),saturationScale(d3.event.pageX),0.5));
+    });
 })();
