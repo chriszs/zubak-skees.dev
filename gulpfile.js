@@ -7,10 +7,11 @@ var gulp = require('gulp'),
     csslint = require('gulp-csslint'),
     stylish = require('jshint-stylish'),
     minifyCSS = require('gulp-minify-css'),
+    livereload = require('gulp-livereload'),
     fs = require('fs');
 
 gulp.task('style', function () {
-    gulp.src('src/style/*.less')
+    return gulp.src('src/style/*.less')
         .pipe(less({
             paths: [ '.', 'lib' ]
         }))
@@ -24,7 +25,7 @@ gulp.task('style', function () {
 });
 
 gulp.task('scripts', function() {
-    gulp.src(['src/script/lib/*.js','src/script/*.js'],
+    return gulp.src(['src/script/lib/*.js','src/script/*.js'],
         {
             base: 'src/script/'
         })
@@ -39,11 +40,19 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('copy', function() {
-    gulp.src(['src/*.html'], {base: 'src/'})
-        .pipe(gulp.dest('.'));
-
-    gulp.src(['src/img/*'], {base: 'src/'})
+    return gulp.src(['src/*.html','src/img/*'], {base: 'src/'})
         .pipe(gulp.dest('.'));
 });
 
-gulp.task('build', ['copy', 'style', 'scripts']);
+gulp.task('build', ['copy', 'style', 'scripts'],function () {
+    livereload.changed(null,{
+        auto: false
+    });
+});
+
+gulp.task('watch', ['build'], function() {
+    livereload.listen({
+        auto: true
+    });
+    gulp.watch(['src/*','src/script/*','src/img/*','src/style/*'],['build']);
+});
