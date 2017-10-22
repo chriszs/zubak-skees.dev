@@ -47,9 +47,30 @@ p {
     margin-left: auto;
     padding-right: 25px;
     margin-bottom: 40px;
+    padding-top: 25px;
 }
 
-.examples:after {
+h2 {
+    margin-bottom: 5px;
+}
+
+.exampleContainer {
+    position: relative;
+}
+
+.exampleLink {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.exampleContainer p {
+    margin: 0;
+}
+
+.exampleContainer:after {
   content: "";
   display: table;
   clear: both;
@@ -57,21 +78,25 @@ p {
 
 .example {
     display: block;
-    width: 300px;
+    width: 150px;
     float: left;
-    height: 300px;
+    height: 150px;
     background-size: 180% auto;
     background-repeat: no-repeat;
-    margin-left: 25px;
-    margin-top: 25px;
+    // margin-left: 25px;
+    // margin-top: 25px;
     border: 3px solid rgb(200,200,200);
     transition: background-size 0.5s;
+    margin-right: 20px;
 }
 
+/*
 .example:hover {
+    background-color: red;
     border: 3px solid rgb(100,100,100);
     background-size: 190% auto;
 }
+*/
 
 @media (max-width: 650px) {
     body {
