@@ -14,13 +14,18 @@ h1 {
 
 p {
     margin: 0;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .top {
     width: 100%;
     height: 10px;
     background-color: #4EFF6E;
+}
+
+.sep {
+    color: rgb(150,150,150);
+    font-size: 90%;
 }
 
 .container {
@@ -41,6 +46,18 @@ p {
     }
 }
 
+.tag {
+    padding: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 12px;
+    display: inline-block;
+    border-radius: 2px;
+    background-color: rgb(50,50,50);
+    margin-bottom: 5px;
+    color: white;
+}
+
 .examples {
     max-width: 1000px;
     margin-right: auto;
@@ -51,11 +68,20 @@ p {
 }
 
 h2 {
+    margin: 0;
+    padding-top: 10px;
     margin-bottom: 5px;
+    font-size: 15px;
+    width: 90%;
 }
 
 .exampleContainer {
     position: relative;
+    /* background-color: rgb(250,250,250); */
+    margin-bottom: 5px;
+    float: left;
+    width: 25%;
+    height: 320px;
 }
 
 .exampleLink {
@@ -68,6 +94,9 @@ h2 {
 
 .exampleContainer p {
     margin: 0;
+    color: rgb(100,100,100);
+    font-size: 14px;
+    display: none;
 }
 
 .exampleContainer:after {
@@ -78,16 +107,21 @@ h2 {
 
 .example {
     display: block;
-    width: 150px;
-    float: left;
-    height: 150px;
+    width: 90%;
+    /* float: left; */
+    height: 200px;
     background-size: 180% auto;
     background-repeat: no-repeat;
     // margin-left: 25px;
     // margin-top: 25px;
-    border: 3px solid rgb(200,200,200);
     transition: background-size 0.5s;
     margin-right: 20px;
+}
+
+.examples:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 /*
@@ -98,9 +132,21 @@ h2 {
 }
 */
 
+
+@media (max-width: 1000px) {
+    .exampleContainer {
+        width: 50%;
+    }
+}
+
 @media (max-width: 650px) {
     body {
         font-size: 70%;
+    }
+
+    .exampleContainer {
+        float: none;
+        width: 100%;
     }
 
     .example {
