@@ -2,44 +2,82 @@
 <html lang=en-US>
     <head>
         <meta charset=utf-8>
+
         <title>Hi, I'm Chris</title>
-        <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,700" rel="stylesheet">
 
         <style>
+        body, html, p {
+            margin: 0;
+            padding: 0;
+            font-family: 'Merriweather', serif;
+        }
+
+/*
+        body {
+            background-color: #22ffc2;
+        }
+*/
+        .introBox, .bodyBox {
+            /* background-color: white; */
+            /* border: 1px solid black; */
+            margin-left: auto;
+            margin-right: auto;
+            padding: 70px;
+            z-index: 100;
+            position: relative;
+            width: 40%;
+        }
+
         .bodyBox {
-            /* border: 10px solid #FCD667; */
-            padding: 50px;
+            width: 80%;
         }
 
         a {
-            color: #FCD667;
+            color: #FF8C00;
         }
 
         p {
-            font-family: 'Open Sans', sans-serif;
-            font-size: 40px;
-            line-height: 50px;
+            font-family: 'Merriweather', serif;
+            font-size: 2em;
+            line-height: 1.5em;
             margin-bottom: 30px;
         }
 
         b {
             font-weight: bold;
         }
+
+        h1 {
+            font-size: 4em;
+            font-weight: normal;
+        }
         </style>
     </head>
-    <body class="bodyBox">
-        <p>Hi, I'm <b>Chris Zubak-Skees</b>. I'm a journalist who works in code, prose, design and data.</p>
+    <body>
+        <div style="position: absolute;top: -500px;left:-50%;transform: rotate(31deg);background-color: #22ffc2;height: 1000px;width: 87%;z-index: 50"></div>
 
-        <p>I'm currently the Center for Public Integrity, leading a small team and working to advance our state of the art. Stories I've coached include...</p>
+        <div style="position: absolute;top: 0px;left:0;transform: rotate(31deg);color: white;font-size:18em;line-height:100%;padding-top:15%;z-index: 51">Zubak-Skees</div>
 
-        <p>I've freednt disclosures, including authoring open source tools to <a href="#">loadral Election Commission</a>, <a href="#">extractpublic financial disclosures</a> and <a href="#">search grants from many nonprofits</a>.</p>
+        <section class="introBox">
+            <h1>Hi, I'm <b>Chris Zubak-Skees</b><span style="color: #22ffc2">.</span></h1>
 
-        <p>I've built apps and graphics, including on <a href="#">the long rise of women in state government</a>., <a href="#">legislative financial disclosures</a> and <a href="#">TKTK</a>.</p>
+            <p>I'm a journalist fluent in code, prose, data and design.</p>
+        </section>
 
-        <p>I've analyzed <a href="#">ActBlue</a>, <a href="#">TKTK</a>, <a href="#">TKTK</a>.</p>
+        <section class="bodyBox">
+            <p>I'm currently data editor at the Center for Public Integrity, leading a small team. Stories I've coached include...</p>
 
-        <p>I've designed stories, defining the visuals for <a href="#">a heartbreaking story about a death in a trench</a>, <a href="#">a hair-raising series about nuclear safety</a> and <a href="#">a series about the places with little political clout</a>.</p>
+            <p>I've freed government disclosures, including authoring open source tools to <a href="#">load Federal Election Commission</a>, <a href="#">extract public financial disclosures</a> and <a href="#">search grants from many nonprofit tax forms</a>.</p>
 
-        <p>You can find me on <a href="#">Twitter</a>, <a href="#">LinkedIn</a> and <a href="#">GitHub</a>. Reach me at <a href="#">chris@zubak-skees.com</a>.
+            <p>I've built apps and graphics, including on <a href="#">the long rise of women in state government</a>, <a href="#">legislative financial disclosures</a> and <a href="#">TKTK</a>.</p>
+
+            <p>I've analyzed <a href="#">ActBlue</a>, <a href="#">TKTK</a>, <a href="#">TKTK</a>.</p>
+
+            <p>I've designed stories, defining the visuals for <a href="#">a heartbreaking story about a death in a trench</a>, <a href="#">a hair-raising series about nuclear safety</a> and <a href="#">a series about the places with little political clout</a>.</p>
+
+            <p>You can find me on <a href="#">Twitter</a>, <a href="#">LinkedIn</a> and <a href="#">GitHub</a>. Reach me at <a href="#">chris@zubak-skees.com</a>.
+        </section>
     </body>
 </html>
