@@ -35,7 +35,7 @@
         }
 
         .bodyBox {
-            width: 80%;
+            width: 70%;
             font-size: 1.5em;
         }
 
@@ -93,8 +93,29 @@
             white-space: nowrap;
         }
 
+        .meDotJpg {
+            -webkit-border-radius: 50%;
+            -moz-border-radius: 50%;
+            border-radius: 50%;
+            /* border: 3px solid rgba(150,180,150,0.8); */
+            box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
+            -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
+            -webkit-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.75) inset;
+            position: absolute;
+            left: -105px;
+            width: 85px;
+            height: 85px;
+        }
+
+        .meDotJpg img {
+            position: relative;
+            display: block;
+            width: 100%;
+            border-radius: 50%;
+        }
+
         @media screen and (max-width: 800px) {
-            .introBox {
+            .introBox, .bodyBox {
                 width: 80%;
             }
 
@@ -105,34 +126,55 @@
             .stickyNoteText {
                 font-size: 8em;
             }
+
+            .meDotJpg {
+                display: none;
+            }
         }
         </style>
     </head>
     <body>
         <div class="stickNote"></div>
-
-        <!-- <img src="me.jpg" width="90" height="90" style="border-radius: 50%;z-index: 52;position: absolute;top:50px;left:50px" align="left"> -->
-
         <!--
         <div class="stickyNoteText">Journalist<br>Developer<br>Designer</div>
         -->
 
         <section class="introBox">
-            <h1><span style="font-size: 0.5em;line-height: 0.5em">Hi, I'm</span><br><b>Chris <span class="noWrap">Zubak-Skees</span></b><span style="color: #22ffc2">.</span></h1>
+            <h1><span style="font-size: 0.5em;line-height: 0.5em">Hi, I'm</span><br>
+                <div class="meDotJpg">
+                    <img src="img/me.jpg">
+                </div>
+                <b>Chris <span class="noWrap">Zubak-Skees</span></b><span style="color: #22ffc2">.</span></h1>
 
             <p>I'm a journalist fluent in code, prose, data and design.</p>
         </section>
 
         <section class="bodyBox">
-            <p>I'm currently data editor at the Center for Public Integrity, where I coach other journalists who code and do data journalism.</p>
+            <p>I'm currently data editor at the Center for Public Integrity, where I do data journalism and coach journalists who code.</p>
 
-            <p>I've freed disclosures, including authoring open source tools to <a href="#">load Federal Election Commission filings</a>, <a href="#">search grants from many nonprofit tax forms</a> and <a href="#">extract public financial disclosures</a>. That helped the New York Times, Washington Post and ProPublica report on the employment and investment histories of administration officials.</p>
+            <h2>I ❤️ disclosures.</h2>
 
-            <p>I've built apps and graphics, including on <a href="#">the long rise of women in state government</a>, <a href="#">legislative financial disclosures</a> and <a href="#">TKTK</a>.</p>
+            <p>I process and analyze Federal Election Commission reports using code I <a href="https://github.com/Publici/fec-loader">released as open source</a>. It lets us report stories that illuminate <a href="https://publicintegrity.org/federal-politics/how-actblue-is-trying-to-turn-small-donations-into-a-blue-wave/">the source of $3 billion for Democrats</a>, <a href="https://projects.fivethirtyeight.com/2020-fundraising/">what fundraising can tell us about presidential races</a> and <a href="https://publicintegrity.org/business/taxes/trumps-tax-cuts/did-billionaires-pay-off-republicans-for-passing-the-trump-tax-bill/">who donated around the passage of the tax bill</a>.</p>
 
-            <p>I've analyzed <a href="#">ActBlue</a>, <a href="#">TKTK</a>, <a href="#">TKTK</a>.</p>
+            <p>I <a href="#">open sourced</a> code to extract data from the financial disclosures for thousands of Trump administration appointees. It was used by the <a href="#">New York Times</a>, <a href="#">Washington Post</a> and <a href="#">ProPublica</a>. We <a href="#">published</a> an award-winning series with the Center for Investigative Reporting.</p>
+
+            <img src="img/nonprofits.gif" align="right" style="width: 250px;height: auto;margin-right: 30px;margin-bottom: 30px">
+
+            <p>I extracted millions of grant records from nonprofit tax forms and made them <a href="#">searchable.</a>.</p>
+
+            <p><a href="#">legislative financial disclosures</a></p>
+
+            <h2>I ❤️ design.</h2>
+
+            <img src="img/women.png" align="right" style="width: 250px;height: auto;margin-right: 30px;margin-bottom: 30px">
+
+            <p>I've built apps and graphics, including on <a href="#">the long rise of women in state government</a>,  and <a href="#">TKTK</a>.</p>
+
+            <img src="img/storm.png" align="left" style="width: 250px;height: auto;margin-right: 30px;margin-bottom: 30px">
 
             <p>I've designed stories, defining the visuals for <a href="#">a heartbreaking story about a death in a trench</a>, <a href="#">a hair-raising series about nuclear safety</a> and <a href="#">a series about the places with little political clout</a>.</p>
+
+            <h2>I ❤️ you.</h2>
 
             <p>You can find me on <a href="#">Twitter</a>, <a href="#">LinkedIn</a> and <a href="#">GitHub</a>. Reach me at <a href="#">chris@zubak-skees.com</a>.
         </section>
