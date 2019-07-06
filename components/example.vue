@@ -64,13 +64,14 @@ a:hover h2 {
 }
 
 .tag {
-    background-color: rgb(50,50,50);// #323232;
+    // background-color: rgb(50,50,50);// #323232;
     color: white;
     text-transform: uppercase;
     font-size: 12px;
     padding: 3px 5px;
     border-radius: 2px;
     text-decoration: none;
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(39,199,171,1) 0%, rgba(70,143,197,1) 90% );
 }
 
 .exampleContainer {
