@@ -56,15 +56,14 @@ a:hover h2 {
     color: white;
     text-transform: uppercase;
     font-size: 12px;
-    padding: 2px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding: 3px 5px;
     border-radius: 2px;
     text-decoration: none;
 }
 
 .exampleContainer {
     float: left;
+    width: 100%;
     width: 22%;
     padding: 1%;
 }
@@ -75,7 +74,7 @@ a:hover h2 {
     background-size: 180% auto;
     background-repeat: no-repeat;
     transition: background-size .5s;
-    margin-top: 5px;
+    margin-top: 8px;
 }
 
 h2 {
@@ -94,6 +93,7 @@ h2 {
 
 @media (max-width: 650px) {
     .exampleContainer {
+        float: none;
         width: 100%;
         padding: 0;
     }
