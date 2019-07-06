@@ -1,0 +1,90 @@
+---
+name: Chris Zubak-Skees
+
+titles:
+  - developer
+  - designer
+  - journalist
+
+links:
+  - title: Twitter
+    icon: twitter
+    url: https://twitter.com/zubakskees
+  - title: GitHub
+    icon: github
+    url: https://github.com/chriszs
+  - title: LinkedIn
+    icon: linkedin-square
+    url: https://www.linkedin.com/in/chriszs
+
+examples:
+  - title: Share of women in elected office in every state
+    tag: data graphic
+    img: women.png
+    url: https://www.publicintegrity.org/2018/03/06/21606/share-women-elected-office-every-state
+
+  - title: Nuclear Negligence
+    tag: story design
+    img: nuclear.png
+    url: https://apps.publicintegrity.org/nuclear-negligence/
+
+  - title: Death in the Trench
+    tag: story design
+    img: trench.png
+    url: https://apps.publicintegrity.org/the-trench/
+
+  - title: Find your state legislators' financial interests
+    tag: app
+    img: disclosures.png
+    url: https://apps.publicintegrity.org/disclosure/statehouses/
+
+  - title: Wilbur Ross will shepherd Trump’s trade policy. He also owns ships.
+    tag: analysis & cartography
+    img: ross.png
+    url: https://www.publicintegrity.org/2017/03/23/14509/wilbur-ross-will-shepherd-trump-s-trade-policy-should-he-also-own-shipping-firm
+
+  - title: Tracking TV ads in the 2016 state races
+    tag: data processing & app
+    img: stateads.png
+    url: https://www.publicintegrity.org/2016/10/06/20290/tracking-tv-ads-2016-state-races
+
+  - title: See how much the 2016 presidential candidates have raised so far
+    tag: data processing & app
+    img: electiontracker.png
+    url: https://www.publicintegrity.org/2015/10/16/18631/see-how-much-2016-presidential-candidates-have-raised-so-far
+
+  - title: Search the Nonprofit Network
+    tag: data processing & app
+    img: nonprofits.gif
+    url: https://www.publicintegrity.org/2016/08/03/20030/search-nonprofit-network
+
+  - title: Fatal Extraction
+    tag: multimedia design
+    img: fatalextraction.png
+    url: https://projects.icij.org/fatalextraction/s/26
+
+  - title: Title loans
+    tag: data graphics
+    img: titleloans.png
+    url: https://www.publicintegrity.org/2015/12/09/18916/lawmakers-protect-title-loan-firms-while-borrowers-pay-sky-high-interest-rates
+
+  - title: Ambassador fundraisers
+    tag: data graphic
+    img: ambassadors.png
+    url: https://www.publicintegrity.org/ambassadors
+
+  - title: Students referred to police
+    tag: data graphic
+    img: studentsreferred.png
+    url: https://www.publicintegrity.org/2015/04/10/17074/state-state-look-students-referred-law-enforcement
+
+  - title: Who's buying the Senate?
+    tag: data graphic
+    img: whosbuyingsenate.png
+    url: https://www.publicintegrity.org/2014/09/02/15447/whos-buying-senate
+
+  - title: Geheime Geschäfte der Mächtigen und Reichen (Secret businesses of the powerful and rich)
+    tag: graphic
+    img: chinaleaks.png
+    url: http://www.sueddeutsche.de/politik/interaktive-grafik-zu-offshore-leaks-geheime-geschaefte-der-maechtigen-und-reichen-1.1866146
+
