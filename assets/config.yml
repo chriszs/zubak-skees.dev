@@ -30,8 +30,8 @@ examples:
   - title: Suggested poems for Gmail
     tag: fun
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-    img: nuclear.png
-    url: https://example.com
+    img: poems.png
+    url: https://chrome.google.com/webstore/detail/suggested-poems-for-gmail/kjjcalmhcemhafjcoanjjllfjdfnnhid
 
   - title: FEC loader
     tag: tool
@@ -40,7 +40,7 @@ examples:
     url: https://example.com
 
   - title: Abandoned in America
-    tag: design & editing
+    tag: design & graphics
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: nuclear.png
     url: https://example.com

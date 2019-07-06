@@ -87,7 +87,7 @@ a:hover h2 {
 .exampleImage {
     width: 25%;
     height: 200px;
-    background-size: 180% auto;
+    background-size: cover;
     background-repeat: no-repeat;
     transition: background-size .5s;
     /* margin-top: 8px; */
