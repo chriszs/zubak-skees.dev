@@ -1,20 +1,19 @@
 <template>
     <div class="exampleContainer">
-        <div class="tag">{{ tag }}</div>
-
         <a
             :href="url"
             class="exampleLink"
-        >
-            <!--
-            <a
-                :href="url"
-                class="example"
-                :style="'background-image:url(img/' + img + ')'"
-            />
-            -->
-            <h2>{{ title }}</h2>
-        </a>
+        />
+        
+        <div class="tag">{{ tag }}</div>
+
+        <div
+            class="example"
+            :style="'background-image:url(img/' + img + ')'"
+        />
+
+        <h2>{{ title }}</h2>
+
     </div>
 </template>
 
@@ -94,6 +93,7 @@ h2 {
 }
 
 .tag {
+    text-transform: uppercase;
     padding: 3px;
     padding-left: 5px;
     padding-right: 5px;

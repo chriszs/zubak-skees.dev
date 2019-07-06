@@ -28,4 +28,9 @@ a {
 a:hover {
     color: rgb(100, 100, 100);
 }
+
+i {
+    padding-left: 5px;
+    padding-right: 5px;
+}
 </style>
