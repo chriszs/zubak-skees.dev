@@ -16,8 +16,41 @@ links:
   - title: LinkedIn
     icon: linkedin-square
     url: https://www.linkedin.com/in/chriszs
+  - title: Email
+    icon: paper-plane
+    url: mailto:chris@zubak-skees.com
 
 examples:
+  - title: 2020 campaign data analysis
+    tag: data processing & analysis
+    img: nuclear.png
+    url: https://example.com
+
+  - title: Suggested poems for Gmail
+    tag: fun
+    img: nuclear.png
+    url: https://example.com
+
+  - title: FEC loader
+    tag: tool
+    img: nuclear.png
+    url: https://example.com
+
+  - title: Abandoned in America
+    tag: design & editing
+    img: nuclear.png
+    url: https://example.com
+
+  - title: ActBlue analysis
+    tag: data processing & analysis
+    img: nuclear.png
+    url: https://example.com
+
+  - title: PFDs
+    tag: tool
+    img: nuclear.png
+    url: https://example.com
+
   - title: Share of women in elected office in every state
     tag: data graphic
     img: women.png
@@ -88,3 +121,7 @@ examples:
     img: chinaleaks.png
     url: http://www.sueddeutsche.de/politik/interaktive-grafik-zu-offshore-leaks-geheime-geschaefte-der-maechtigen-und-reichen-1.1866146
 
+  - title: Breathless and burdened graphics
+    tag: graphics
+    img: nuclear.png
+    url: https://example.com

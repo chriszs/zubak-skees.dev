@@ -25,6 +25,7 @@ export default {
 
 <style>
 p {
+    font-size: 80%;
     margin: 0;
     margin-bottom: 20px;
 }

@@ -3,7 +3,6 @@
         <a
             :href="url"
         >
-            <span class="tag">{{ tag }}</span>
 
             <div
                 class="exampleImage"
@@ -11,9 +10,18 @@
             >
             </div>
 
-            <h2>
-                    {{ title }}
-            </h2>
+            <div class="exampleText">
+                <span class="tag">{{ tag }}</span>
+
+                <h2>
+                        {{ title }}
+                </h2>
+
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                </p>
+
+            </div>
 
         </a>
     </div>
@@ -52,7 +60,7 @@ a:hover h2 {
 }
 
 .tag {
-    background-color: #323232;
+    background-color: rgb(50,50,50);// #323232;
     color: white;
     text-transform: uppercase;
     font-size: 12px;
@@ -62,30 +70,55 @@ a:hover h2 {
 }
 
 .exampleContainer {
+    /* border: 1px solid rgb(200,200,200); */
+    margin-bottom: 5px;
+    /* 
     float: left;
+    width: 22%; */
     width: 100%;
-    width: 22%;
     padding: 1%;
 }
 
 .exampleImage {
-    width: 100%;
+    width: 25%;
     height: 200px;
     background-size: 180% auto;
     background-repeat: no-repeat;
     transition: background-size .5s;
     margin-top: 8px;
+    float: left;
 }
 
+.exampleText {
+    float: left;
+    width: 63%;
+    padding-left: 2%;
+}
+
+
 h2 {
+    /*
     font-size: 16px;
     height: 50px;
+    */
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.exampleContainer:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
 
 @media (max-width: 800px) {
     .exampleContainer {
+        /*
         width: 47%;
+        */
         padding: 1%;
     }
 }

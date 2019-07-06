@@ -8,6 +8,7 @@
             <titles :titles="titles" />
 
             <links :links="links" />
+
         </div>
 
         <examples :examples="examples" />
@@ -39,12 +40,13 @@ export default {
 <style lang="less">
 h1 {
     margin: 0;
-    margin-bottom: 10px;
+    margin-bottom: 0;
 }
 
 .container {
     padding-top: 40px;
-    max-width: 940px;
+    max-width: 1050px;
+    /* max-width: 940px; */
     margin-right: auto;
     margin-left: auto;
     color: rgb(50, 50, 50);
