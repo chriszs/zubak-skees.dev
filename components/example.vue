@@ -2,18 +2,20 @@
     <div class="exampleContainer">
         <a
             :href="url"
-            class="exampleLink"
-        />
-        
-        <div class="tag">{{ tag }}</div>
+        >
+            <span class="tag">{{ tag }}</span>
 
-        <div
-            class="example"
-            :style="'background-image:url(img/' + img + ')'"
-        />
+            <div
+                class="exampleImage"
+                :style="'background-image:url(img/' + img + ')'"
+            >
+            </div>
 
-        <h2>{{ title }}</h2>
+            <h2>
+                    {{ title }}
+            </h2>
 
+        </a>
     </div>
 </template>
 
@@ -41,92 +43,60 @@ export default {
 </script>
 
 <style lang="less">
-h2 {
-    margin: 0;
-    padding-top: 10px;
-    margin-bottom: 5px;
-    font-size: 15px;
-    width: 90%;
+a {
+    text-decoration: none;
 }
 
-.exampleContainer {
-    position: relative;
-    /* background-color: rgb(250,250,250); */
-    margin-bottom: 5px;
-    float: left;
-    width: 25%;
-    height: 320px;
-}
-
-.exampleLink {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
-
-.exampleContainer p {
-    margin: 0;
-    color: rgb(100, 100, 100);
-    font-size: 14px;
-    display: none;
-}
-
-.exampleContainer:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.example {
-    display: block;
-    width: 90%;
-    /* float: left; */
-    height: 200px;
-    background-size: 180% auto;
-    background-repeat: no-repeat;
-    // margin-left: 25px;
-    // margin-top: 25px;
-    transition: background-size 0.5s;
-    margin-right: 20px;
+a:hover h2 {
+    text-decoration: underline;
 }
 
 .tag {
-    text-transform: uppercase;
-    padding: 3px;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 12px;
-    display: inline-block;
-    border-radius: 2px;
-    background-color: rgb(50, 50, 50);
-    margin-bottom: 5px;
+    background-color: #323232;
     color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 2px;
+    padding-left: 4px;
+    padding-right: 4px;
+    border-radius: 2px;
+    text-decoration: none;
 }
 
-/*
-.example:hover {
-    background-color: red;
-    border: 3px solid rgb(100,100,100);
-    background-size: 190% auto;
+.exampleContainer {
+    float: left;
+    width: 22%;
+    padding: 1%;
 }
-*/
 
-@media (max-width: 1000px) {
+.exampleImage {
+    width: 100%;
+    height: 200px;
+    background-size: 180% auto;
+    background-repeat: no-repeat;
+    transition: background-size .5s;
+    margin-top: 5px;
+}
+
+h2 {
+    font-size: 16px;
+    height: 50px;
+}
+
+
+@media (max-width: 800px) {
     .exampleContainer {
-        width: 50%;
+        width: 47%;
+        padding: 1%;
     }
 }
+
 
 @media (max-width: 650px) {
     .exampleContainer {
-        float: none;
         width: 100%;
-    }
-
-    .example {
-        margin-left: 0;
+        padding: 0;
     }
 }
+
 </style>

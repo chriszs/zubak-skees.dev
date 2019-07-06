@@ -25,10 +25,9 @@ export default {
 
 <style>
 .examples {
-    max-width: 1000px;
+    max-width: 1050px;
     margin-right: auto;
     margin-left: auto;
-    padding-right: 25px;
     margin-bottom: 40px;
     padding-top: 25px;
 }
@@ -41,8 +40,9 @@ export default {
 
 @media (max-width: 650px) {
     .examples {
-        padding-right: 0;
-        width: 300px;
+        margin-left: 25px;
+        margin-right: 25px;
+        /* width: 300px; */
     }
 }
 </style>

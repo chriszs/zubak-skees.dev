@@ -3,9 +3,10 @@
 </template>
 
 <script>
-import * as d3 from 'd3';
+// import * as d3 from 'd3';
 
 export default {
+    /*
     mounted() {
         let top = d3.select('.top');
         let body = d3.select('body');
@@ -53,7 +54,7 @@ export default {
                 )
             )
         );
-    }
+    }*/
 };
 </script>
 
@@ -61,6 +62,7 @@ export default {
 .top {
     width: 100%;
     height: 10px;
-    background-color: #4eff6e;
+    /* background-color: #4eff6e; */
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(39,199,171,1) 0%, rgba(70,143,197,1) 90% );
 }
 </style>
