@@ -61,7 +61,7 @@ export default {
 <style>
 .top {
     width: 100%;
-    height: 10px;
+    height: 11px;
     /* background-color: #4eff6e; */
     background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(39,199,171,1) 0%, rgba(70,143,197,1) 90% );
 }

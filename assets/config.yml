@@ -21,107 +21,128 @@ links:
     url: mailto:chris@zubak-skees.com
 
 examples:
-  - title: 2020 campaign data analysis
+  - title: What first-quarter fundraising can tell us about 2020
     tag: data processing & analysis
-    img: nuclear.png
-    url: https://example.com
+    description: To show the state of presidential money, I worked with Julia Wolfe of FiveThirtyEight. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    img: 2020fundraising.png
+    url: https://projects.fivethirtyeight.com/2020-fundraising/
 
   - title: Suggested poems for Gmail
     tag: fun
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: nuclear.png
     url: https://example.com
 
   - title: FEC loader
     tag: tool
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: nuclear.png
     url: https://example.com
 
   - title: Abandoned in America
     tag: design & editing
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: nuclear.png
     url: https://example.com
 
   - title: ActBlue analysis
     tag: data processing & analysis
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: nuclear.png
     url: https://example.com
 
   - title: PFDs
     tag: tool
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: nuclear.png
     url: https://example.com
 
   - title: Share of women in elected office in every state
     tag: data graphic
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: women.png
     url: https://www.publicintegrity.org/2018/03/06/21606/share-women-elected-office-every-state
 
   - title: Nuclear Negligence
     tag: story design
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: nuclear.png
     url: https://apps.publicintegrity.org/nuclear-negligence/
 
   - title: Death in the Trench
     tag: story design
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: trench.png
     url: https://apps.publicintegrity.org/the-trench/
 
   - title: Find your state legislators' financial interests
     tag: app
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: disclosures.png
     url: https://apps.publicintegrity.org/disclosure/statehouses/
 
   - title: Wilbur Ross will shepherd Trump’s trade policy. He also owns ships.
     tag: analysis & cartography
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: ross.png
     url: https://www.publicintegrity.org/2017/03/23/14509/wilbur-ross-will-shepherd-trump-s-trade-policy-should-he-also-own-shipping-firm
 
   - title: Tracking TV ads in the 2016 state races
     tag: data processing & app
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: stateads.png
     url: https://www.publicintegrity.org/2016/10/06/20290/tracking-tv-ads-2016-state-races
 
   - title: See how much the 2016 presidential candidates have raised so far
     tag: data processing & app
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: electiontracker.png
     url: https://www.publicintegrity.org/2015/10/16/18631/see-how-much-2016-presidential-candidates-have-raised-so-far
 
   - title: Search the Nonprofit Network
     tag: data processing & app
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: nonprofits.gif
     url: https://www.publicintegrity.org/2016/08/03/20030/search-nonprofit-network
 
   - title: Fatal Extraction
     tag: multimedia design
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: fatalextraction.png
     url: https://projects.icij.org/fatalextraction/s/26
 
   - title: Title loans
     tag: data graphics
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: titleloans.png
     url: https://www.publicintegrity.org/2015/12/09/18916/lawmakers-protect-title-loan-firms-while-borrowers-pay-sky-high-interest-rates
 
   - title: Ambassador fundraisers
     tag: data graphic
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: ambassadors.png
     url: https://www.publicintegrity.org/ambassadors
 
   - title: Students referred to police
     tag: data graphic
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: studentsreferred.png
     url: https://www.publicintegrity.org/2015/04/10/17074/state-state-look-students-referred-law-enforcement
 
   - title: Who's buying the Senate?
     tag: data graphic
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: whosbuyingsenate.png
     url: https://www.publicintegrity.org/2014/09/02/15447/whos-buying-senate
 
   - title: Geheime Geschäfte der Mächtigen und Reichen (Secret businesses of the powerful and rich)
     tag: graphic
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: chinaleaks.png
     url: http://www.sueddeutsche.de/politik/interaktive-grafik-zu-offshore-leaks-geheime-geschaefte-der-maechtigen-und-reichen-1.1866146
 
   - title: Breathless and burdened graphics
     tag: graphics
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
     img: nuclear.png
     url: https://example.com

@@ -29,6 +29,10 @@ a:hover {
     color: rgb(100, 100, 100);
 }
 
+.fa {
+    font-size: 90%;
+}
+
 i {
     padding-left: 5px;
     padding-right: 5px;

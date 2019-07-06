@@ -44,7 +44,8 @@ h1 {
 }
 
 .container {
-    padding-top: 40px;
+    padding-top: 30px;
+    padding-bottom: 15px;
     max-width: 1050px;
     /* max-width: 940px; */
     margin-right: auto;
