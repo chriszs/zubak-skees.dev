@@ -9,6 +9,7 @@
 
             <links :links="links" />
 
+           <p class="emailMeContainer">Want to get in touch?&nbsp;&nbsp;<a href="mailto:chris@zubak-skees.com" class="emailMe"><i class="fa fa-paper-plane"/> Email me</a></p>
         </div>
 
         <examples :examples="examples" />
@@ -55,5 +56,19 @@ h1 {
     color: rgb(50, 50, 50);
     font-size: 200%;
     text-align: center;
+}
+
+.emailMe {
+    border: 1px solid rgb(200,200,200);
+    border-radius: 2px;
+    display: inline-block;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.emailMeContainer {
+    font-size: 16px;
+    margin-top: 25px;
+    margin-bottom: 0;
 }
 </style>
