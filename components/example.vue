@@ -92,6 +92,10 @@ a:hover h2 {
     transition: background-size .5s;
     /* margin-top: 8px; */
     float: left;
+    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15) inset;
+    -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15) inset;
+    -webkit-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15) inset;
+
 }
 
 .exampleText {
@@ -100,12 +104,12 @@ a:hover h2 {
     padding-left: 2%;
 }
 
-
 h2 {
     /*
     font-size: 16px;
     height: 50px;
     */
+    font-size: 160%;
     margin: 0;
     padding: 0;
     margin-bottom: 5px;
@@ -118,6 +122,9 @@ h2 {
     clear: both;
 }
 
+.description {
+    font-size: 16px;
+}
 
 @media (max-width: 800px) {
     .exampleContainer {
@@ -134,6 +141,18 @@ h2 {
         float: none;
         width: 100%;
         padding: 0;
+    }
+
+    .description {
+        font-size: 12px;
+    }
+
+    .exampleImage {
+        width: 35%;
+    }
+
+    .tag {
+        line-height: 25px;
     }
 }
 

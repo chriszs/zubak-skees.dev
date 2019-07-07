@@ -41,6 +41,8 @@ export default {
 h1 {
     margin: 0;
     margin-bottom: 0;
+    line-height: 110%;
+    margin-bottom: 5px;
 }
 
 .container {
