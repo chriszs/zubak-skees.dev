@@ -18,5 +18,5 @@ action "push" {
   uses = "docker://node:10.15-alpine"
   needs = ["generate"]
   runs = "npm run push"
-  secrets = ["aws_access_key_id", "aws_secret_access_key"]
+  secrets = ["AWS_ACCESS_KEY_ID", "AWS_SECRET_ACCESS_KEY"]
 }
