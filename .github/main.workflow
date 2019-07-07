@@ -5,7 +5,7 @@ workflow "Publish" {
 
 action "install" {
   uses = "docker://node:10.15-alpine"
-  runs = "npm config set cache .npm-cache && npm ci --production"
+  runs = "npm ci --production"
 }
 
 action "generate" {
