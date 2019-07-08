@@ -66,8 +66,8 @@ examples:
     tag: data processing & analysis
     description: >-
       I analyzed more than 80 million records in a nearly unprecedented analysis of Congressional
-      Democratic candidates' reliance on this fundraising platform right as it became the de facto way
-      the party raises money.
+      Democratic candidates' reliance on this fundraising platform as it became the de facto way
+      Democrats raise money.
     img: actblue.jpg
     url: https://fivethirtyeight.com/features/how-actblue-is-trying-to-turn-small-donations-into-a-blue-wave/
 
@@ -75,8 +75,8 @@ examples:
     tag: tool
     description: >-
       I built a tool that helped four newsrooms build a database of Trump officials' financial histories. This was
-      used on breaking news deadlines by the New York Times and Washington Post, to build ProPublica's Trump Town
-      news app and to report an award-winning national radio story with Reveal from Center for Investigative Reporting.
+      used to report daily stories by the New York Times and Washington Post, to build ProPublica's Trump Town
+      news app and to report an award-winning national radio story with Reveal from the Center for Investigative Reporting.
       It caused at least one high-ranking official to revise his disclosures.
     img: citizensleuth.jpg
     url: https://github.com/PublicI/pfd-parser
@@ -92,14 +92,14 @@ examples:
   - title: Share of women in elected office in every state
     tag: data graphic
     description: >-
-      Charted data on the growth of women's representation in politics in the 50 states just as the first state reached gender parity.
+      Charted data on the growth of women's representation in politics in the 50 states as the first state reached gender parity.
     img: women.png
     url: https://www.publicintegrity.org/2018/03/06/21606/share-women-elected-office-every-state
 
   - title: Death in the Trench
     tag: story design
     description: >-
-      Designed this story on a preventable death and what it says about workplace safety enforcement on a one-day turnaround.
+      Designed this striking story on a preventable death and what it says about workplace safety enforcement.
     img: trench.png
     url: https://apps.publicintegrity.org/the-trench/
 
