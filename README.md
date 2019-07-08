@@ -19,3 +19,4 @@ $ npm run push
 ```
 
 For detailed explanation on how things work, check out the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
+
