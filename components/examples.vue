@@ -29,7 +29,7 @@ export default {
     margin-right: auto;
     margin-left: auto;
     margin-bottom: 40px;
-    padding-top: 25px;
+    padding-top: 15px;
 }
 
 .examples:after {

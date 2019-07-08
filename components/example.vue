@@ -144,11 +144,16 @@ h2 {
     }
 
     .description {
-        font-size: 12px;
+        font-size: 13px;
     }
 
-    .exampleImage {
-        width: 35%;
+    .exampleImage, .exampleText {
+        width: 100%;
+        float: none;
+    }
+
+    .exampleText {
+        margin-top: 10px;
     }
 
     .tag {
