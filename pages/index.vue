@@ -64,6 +64,7 @@ h1 {
     display: inline-block;
     padding: 5px;
     font-size: 16px;
+    padding-right: 10px;
 }
 
 .emailMeContainer {
