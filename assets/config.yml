@@ -99,61 +99,90 @@ examples:
   - title: Death in the Trench
     tag: story design
     description: >-
-      Designed this striking story on a preventable death and what it says about workplace safety enforcement.
+      Designed the presentation for this striking story on a preventable death and what it says about workplace safety enforcement.
     img: trench.png
     url: https://apps.publicintegrity.org/the-trench/
 
   - title: Find your state legislators' financial interests
     tag: app
+    description: >-
+      Helped a reporting team collect, track and input data from nearly every state legislator's financial disclosure in the country,
+      then built an app using DocumentCloud to search and view the disclosures.
     img: disclosures.png
     url: https://apps.publicintegrity.org/disclosure/statehouses/
 
   - title: Wilbur Ross will shepherd Trump’s trade policy. He also owns ships.
+    description: >-
+      Built a map using Mapbox.js to display millions of ship locations collected by satellites, found a cabinet secretary's 
+      shipping firm docked in Iran at the height of sanctions, designed graphics for the resulting story.
     tag: analysis & cartography
     img: ross.png
     url: https://www.publicintegrity.org/2017/03/23/14509/wilbur-ross-will-shepherd-trump-s-trade-policy-should-he-also-own-shipping-firm
 
   - title: Tracking TV ads in the 2016 state races
+    description: >-
+      Used ad tracking data to map political ads airing across the country. Embedded on USAToday.com.
     tag: data processing & app
     img: stateads.png
     url: https://www.publicintegrity.org/2016/10/06/20290/tracking-tv-ads-2016-state-races
 
   - title: See how much the 2016 presidential candidates have raised so far
+    description: >-
+      Analyzed FEC data to total presidential and super PAC fundraising. Built this app and updated it throughout the election.
     tag: data processing & app
     img: electiontracker.png
     url: https://www.publicintegrity.org/2015/10/16/18631/see-how-much-2016-presidential-candidates-have-raised-so-far
 
   - title: Search the Nonprofit Network
+    description: >-
+      Extracted grant data from more than 850,000 electronic nonprofit tax forms. Made an app that lets readers search for the 
+      source of money.
     tag: data processing & app
     img: nonprofits.gif
     url: https://www.publicintegrity.org/2016/08/03/20030/search-nonprofit-network
 
   - title: Fatal Extraction
+    description: >-
+      Designed and developed this multimedia presentation on miners dying in Australian mines in Africa. Nominated for an Emmy.
     tag: multimedia design
     img: fatalextraction.png
     url: https://projects.icij.org/fatalextraction/s/26
 
   - title: Title loans
     tag: data graphics
+    description: >-
+      Built graphics for this investigation on title lenders. Collected data on store locations across dozens of states,
+      used Google Street View API to show them.
     img: titleloans.png
     url: https://www.publicintegrity.org/2015/12/09/18916/lawmakers-protect-title-loan-firms-while-borrowers-pay-sky-high-interest-rates
 
   - title: Ambassador fundraisers
+    description: >-
+      Built this app to track fundraisers appointed to plum embassy postings by President Barack Obama.
     tag: data graphic
     img: ambassadors.png
     url: https://www.publicintegrity.org/ambassadors
 
-  - title: Who's buying the Senate?
-    tag: data graphic
-    img: whosbuyingsenate.png
-    url: https://www.publicintegrity.org/2014/09/02/15447/whos-buying-senate
+  # - title: Who's buying the Senate?
+  #   description: >-
+  #     Built this app to track fundraisers appointed to plum embassy postings by President Barack Obama.
+  #   tag: data graphic
+  #   img: whosbuyingsenate.png
+  #   url: https://www.publicintegrity.org/2014/09/02/15447/whos-buying-senate
 
   - title: China Leaks
+    description: >-
+      Helped the International Consortium of Investigative Journalists report out the China phase of its Offshore
+      Leaks investigation by facilitating communication and database access between a far-flung reporting team.
+      Designed and developed a graphic to show the results, which was localized into half a dozen languages,
+      embedded by Le Monde, El Pais, Süddeutsche Zeitung.
     tag: graphic & devops
     img: china.png
     url: http://www.sueddeutsche.de/politik/interaktive-grafik-zu-offshore-leaks-geheime-geschaefte-der-maechtigen-und-reichen-1.1866146
 
   - title: Breathless and Burdened graphics
+    description: >-
+      Designed and developed graphics for this Pulitzer-winning series on miners denied benefits for black lung.
     tag: data graphics
     img: breathless.png
     url: https://www.informationisbeautifulawards.com/showcase/524-breathless-and-burdened-x-ray-readings-compared
