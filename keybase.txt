@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/chriszs
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://zubak-skees.dev
+  * I am chriszs (https://keybase.io/chriszs) on keybase.
+  * I have a public key ASCPTZgM93KmdLhIcWU8IMbBxNl--zE644Vwhb1NupJHywo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01208f4d980cf772a674b84871653c20c6c1c4d97efb313ae3857085bd4dba9247cb0a",
+      "host": "keybase.io",
+      "kid": "01208f4d980cf772a674b84871653c20c6c1c4d97efb313ae3857085bd4dba9247cb0a",
+      "uid": "f290c6acbce4f8247e9b0bf64553ca19",
+      "username": "chriszs"
+    },
+    "merkle_root": {
+      "ctime": 1563543916,
+      "hash": "5f39164074ed33dda28ddac756edfd58d75405929d1a05122262cc589309bf48e23670a24c7e0b13a85093b3484fca83dfe729bde8102035849ed9aae295194f",
+      "hash_meta": "28b09f56f6dc59be6b77242c83f2c91755b646acaa81f010427472929c799d9c",
+      "seqno": 5797700
+    },
+    "service": {
+      "entropy": "dkaqL5WJwfcq0FeR3Hfcv2Mf",
+      "hostname": "zubak-skees.dev",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.2.0"
+  },
+  "ctime": 1563543953,
+  "expire_in": 504576000,
+  "prev": "f3eca674aae8e1b62b5e52d51d2893d949b9cc6320db2d42b1d6e8848fbaff14",
+  "seqno": 8,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgj02YDPdypnS4SHFlPCDGwcTZfvsxOuOFcIW9TbqSR8sKp3BheWxvYWTESpcCCMQg8+ymdKro4bYrXlLVHSiT2Um5zGMg2y1CsdbohI+6/xTEIHnzH4FeM1+5w33i4qJX969uatgA8Je3uFa26a6t/2ZtAgHCo3NpZ8RAd7i2PeQszmGI8uAF7VUpJ3QfdG5DaqaQWX5TAfy7NgcSYoNC/9awsJqYqhh53AR52mJouNTm5G6RmfVjy4wHDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJ0tm5bkUJNeADdpzwuwtehtSRZ4YKTgyWFp0yIB8d5eo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chriszs
+
+==================================================================
