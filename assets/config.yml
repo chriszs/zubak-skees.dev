@@ -21,6 +21,16 @@ links:
   #   url: mailto:chris@zubak-skees.com
 
 examples:
+  - title: You donated to kids with cancer. This Vegas telemarketer cashed in.
+    tag: graphics & analysis
+    description: >-
+      Worked with data fellow Rosie Cima to analyze a universe of PACs that raised from
+      small-dollar donors and spent mostly on themselves. Zeroed into one telemarketer's
+      charitable solicitation operation with a reporter. Built graphics to tell the
+      story.
+    img: pacnetwork.png
+    url: https://publicintegrity.org/federal-politics/charitable-contributions/
+
   - title: What first-quarter fundraising can tell us about 2020
     tag: data processing & analysis
     description: >-
@@ -148,20 +158,20 @@ examples:
     img: fatalextraction.png
     url: https://projects.icij.org/fatalextraction/s/26
 
-  - title: Title loans
-    tag: data graphics
-    description: >-
-      Built graphics for this investigation on title lenders. Collected data on store locations across dozens of states,
-      used Google Street View API to show them.
-    img: titleloans.png
-    url: https://www.publicintegrity.org/2015/12/09/18916/lawmakers-protect-title-loan-firms-while-borrowers-pay-sky-high-interest-rates
+  # - title: Title loans
+  #   tag: data graphics
+  #   description: >-
+  #     Built graphics for this investigation on title lenders. Collected data on store locations across dozens of states,
+  #     used Google Street View API to show them.
+  #   img: titleloans.png
+  #   url: https://www.publicintegrity.org/2015/12/09/18916/lawmakers-protect-title-loan-firms-while-borrowers-pay-sky-high-interest-rates
 
-  - title: Ambassador fundraisers
-    description: >-
-      Built this app to track fundraisers appointed to plum embassy postings by President Barack Obama.
-    tag: data graphic
-    img: ambassadors.png
-    url: https://www.publicintegrity.org/ambassadors
+  # - title: Ambassador fundraisers
+  #   description: >-
+  #     Built this app to track fundraisers appointed to plum embassy postings by President Barack Obama.
+  #   tag: data graphic
+  #   img: ambassadors.png
+  #   url: https://www.publicintegrity.org/ambassadors
 
   # - title: Who's buying the Senate?
   #   description: >-
