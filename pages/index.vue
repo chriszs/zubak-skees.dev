@@ -9,7 +9,7 @@
 
             <links :links="links" />
 
-           <p class="emailMeContainer">Want to get in touch?&nbsp;&nbsp;<a href="mailto:chris@zubak-skees.com" class="emailMe"><i class="fa fa-paper-plane"/> Email me</a></p>
+           <p class="emailMeContainer">Want to get in touch?&nbsp;&nbsp;<a href="mailto:chriszs@gmail.com" class="emailMe"><i class="fa fa-paper-plane"/> Email me</a></p>
         </div>
 
         <examples :examples="examples" />
