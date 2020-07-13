@@ -28,8 +28,17 @@ examples:
       knowledge test which asked users to point to Ukraine after a cabinet secretary
       asked an NPR anchor if she could. It received a million attempts,
       only 300,000 of which were from bots.
-    img: Ukraine.png
+    img: ukraine.png
     url: https://observablehq.com/@chriszs/point-to-ukraine-on-a-map
+
+  - title: Bad Decision Maker
+    tag: fun
+    description: >-
+      Created this progressive web app with Svelte, Material Design and Serverless to help
+      a collective of chaotic creatives make bad deicions. Features dark mode, emojis and
+      a polished mobile experience.
+    img: baddecisions.png
+    url: https://baddecisions.app/
 
   - title: You donated to kids with cancer. This Vegas telemarketer cashed in.
     tag: graphics & analysis
