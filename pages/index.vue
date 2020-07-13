@@ -9,7 +9,15 @@
 
             <links :links="links" />
 
-           <p class="emailMeContainer">Want to get in touch?&nbsp;&nbsp;<a href="mailto:chriszs@gmail.com" class="emailMe"><i class="fa fa-paper-plane"/> Email me</a></p>
+            <!--
+            <p class="emailMeContainer">
+                Want to get in touch?&nbsp;&nbsp;
+                <a
+                    href="mailto:chriszs@gmail.com"
+                    class="emailMe"
+                ><i class="fa fa-paper-plane" /> Email me</a>
+            </p>
+            -->
         </div>
 
         <examples :examples="examples" />
@@ -28,13 +36,13 @@ export default {
         examples,
         top,
         links,
-        titles
+        titles,
     },
     data() {
         return {
-            ...config
+            ...config,
         };
-    }
+    },
 };
 </script>
 
@@ -59,7 +67,7 @@ h1 {
 }
 
 .emailMe {
-    border: 1px solid rgb(200,200,200);
+    border: 1px solid rgb(200, 200, 200);
     border-radius: 2px;
     display: inline-block;
     padding: 5px;

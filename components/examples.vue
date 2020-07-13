@@ -12,15 +12,16 @@
 import example from '~/components/example.vue';
 
 export default {
-    props: {
-        examples: {
-            type: Array
-        }
-    },
     components: {
         example
+    },
+    props: {
+        examples: {
+            type: Array,
+            default: () => []
+        }
     }
-}
+};
 </script>
 
 <style>

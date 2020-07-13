@@ -21,6 +21,16 @@ links:
   #   url: mailto:chris@zubak-skees.com
 
 examples:
+  - title: Can you point to Ukraine on a map?
+    tag: fun
+    description: >-
+      Created a quick Serverless API and Observable notebook for this interactive
+      knowledge test which asked users to point to Ukraine after a cabinet secretary
+      asked an NPR anchor if she could. It received a million attempts,
+      only 300,000 of which were from bots.
+    img: Ukraine.png
+    url: https://observablehq.com/@chriszs/point-to-ukraine-on-a-map
+
   - title: You donated to kids with cancer. This Vegas telemarketer cashed in.
     tag: graphics & analysis
     description: >-
@@ -35,7 +45,7 @@ examples:
     tag: data processing & analysis
     description: >-
       To show the state of presidential money, I crunched the data behind this
-      graphics story designed and developed by Julia Wolfe of FiveThirtyEight. 
+      graphics story designed and developed by Julia Wolfe of FiveThirtyEight.
       The analysis used Python code and relied on a real-time SQL database of
       campaign finance information. It also informed the rest of filing day
       coverage.
@@ -123,7 +133,7 @@ examples:
 
   - title: Wilbur Ross will shepherd Trump’s trade policy. He also owns ships.
     description: >-
-      Built a map using Mapbox.js to display millions of ship locations collected by satellites, found a cabinet secretary's 
+      Built a map using Mapbox.js to display millions of ship locations collected by satellites, found a cabinet secretary's
       shipping firm docked in Iran at the height of sanctions, designed graphics for the resulting story.
     tag: analysis & cartography
     img: ross.png
@@ -145,7 +155,7 @@ examples:
 
   - title: Search the Nonprofit Network
     description: >-
-      Extracted grant data from more than 850,000 electronic nonprofit tax forms. Made an app that lets readers search for the 
+      Extracted grant data from more than 850,000 electronic nonprofit tax forms. Made an app that lets readers search for the
       source of money.
     tag: data processing & app
     img: nonprofits.gif

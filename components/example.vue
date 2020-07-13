@@ -7,18 +7,17 @@
             <div
                 class="exampleImage"
                 :style="'background-image:url(img/' + img + ')'"
-            >
-            </div>
+            />
 
             <div class="exampleText">
                 <span class="tag">{{ tag }}</span>
 
                 <h2>
-                        {{ title }}
+                    {{ title }}
                 </h2>
 
                 <p class="description">
-                    {{description}}
+                    {{ description }}
                 </p>
 
             </div>
@@ -77,7 +76,7 @@ a:hover h2 {
 .exampleContainer {
     /* border: 1px solid rgb(200,200,200); */
     margin-bottom: 5px;
-    /* 
+    /*
     float: left;
     width: 22%; */
     width: 100%;
@@ -134,7 +133,6 @@ h2 {
         padding: 1%;
     }
 }
-
 
 @media (max-width: 650px) {
     .exampleContainer {

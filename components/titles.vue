@@ -6,8 +6,8 @@
         >
             <span>{{ title }}</span>
             <span
-                class="sep"
                 v-if="i !== titles.length-1"
+                class="sep"
             > | </span>
         </span>
     </p>
@@ -17,7 +17,8 @@
 export default {
     props: {
         titles: {
-            type: Array
+            type: Array,
+            default: () => []
         }
     }
 };

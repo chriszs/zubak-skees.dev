@@ -5,7 +5,10 @@
             :key="link.title"
             :href="link.url"
         >
-            <i :class="'fa fa-' + link.icon + ' fa-lg'" :title="link.title" />
+            <i
+                :class="'fa fa-' + link.icon + ' fa-lg'"
+                :title="link.title"
+            />
         </a>
     </div>
 </template>
@@ -14,7 +17,8 @@
 export default {
     props: {
         links: {
-            type: Array
+            type: Array,
+            default: () => []
         }
     }
 };
