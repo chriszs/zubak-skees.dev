@@ -35,8 +35,8 @@ examples:
     tag: fun
     description: >-
       Created this progressive web app with Svelte, Material Design and Serverless to help
-      a collective of chaotic creatives make bad deicions. Features dark mode, emojis and
-      a polished mobile experience.
+      a collective of chaotic creatives make bad deicions. Features dark mode and emojis.
+      A work-in-progress.
     img: baddecisions.png
     url: https://baddecisions.app/
 
