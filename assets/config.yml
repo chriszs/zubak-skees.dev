@@ -16,9 +16,9 @@ links:
   - title: LinkedIn
     icon: linkedin-square
     url: https://www.linkedin.com/in/chriszs
-  # - title: Email
-  #   icon: paper-plane
-  #   url: mailto:chris@zubak-skees.com
+  - title: Email
+    icon: paper-plane
+    url: mailto:chriszs@gmail.com
 
 examples:
   - title: Can you point to Ukraine on a map?
