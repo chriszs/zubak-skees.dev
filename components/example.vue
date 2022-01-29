@@ -70,7 +70,7 @@ a:hover h2 {
     padding: 3px 5px;
     border-radius: 2px;
     text-decoration: none;
-    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(39,199,171,1) 0%, rgba(70,143,197,1) 90% );
+    background: #47b4b9;
 }
 
 .exampleContainer {
