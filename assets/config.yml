@@ -1,11 +1,6 @@
 ---
 name: Chris Zubak-Skees
 
-titles:
-  - developer
-  - designer
-  - journalist
-
 chatter: >-
   I'm a software developer, designer and journalist. I process, analyze and visualize data, design and build
    websites. Sometimes I make things just for fun.
@@ -26,7 +21,7 @@ links:
 
 examples:
   - title: "Map: He Tore Down Motels Where Poor Residents Lived During a Housing Crisis"
-    tag: design & graphics
+    tag: graphics
     description: >-
         I designed and developed a scrollytelling map of the properties bought by a Reno developer for
         this ProPublica investigative project.
