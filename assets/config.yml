@@ -48,7 +48,7 @@ examples:
     url: https://projects.fivethirtyeight.com/2020-fundraising/
 
   - title: FEC loader
-    tag: tool
+    tag: data processing
     description: >-
       I released this set of flexible Node.js utilities designed to
       discover, convert and load raw Federal Election Commission filings into a
@@ -58,7 +58,7 @@ examples:
     url: https://github.com/PublicI/fec-loader/tree/subcommands
 
   - title: Public financial disclosure parser
-    tag: tool
+    tag: data processing
     description: >-
       I built a tool that helped newsrooms compile databases of Trump officials' financial histories. This was
       used to report a daily story by the New York Times, to build ProPublica's Trump Town
@@ -209,7 +209,7 @@ examples:
       Leaks investigation.
       Designed and developed a graphic to show the results, which was localized into half a dozen languages,
       embedded by Le Monde, El Pais, Süddeutsche Zeitung.
-    tag: graphic & devops
+    tag: graphics
     img: china.png
     url: https://elpais.com/especiales/2014/chinaleaks/
 
