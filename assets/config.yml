@@ -21,7 +21,7 @@ links:
     url: mailto:chriszs@gmail.com
 
 examples:
-  - title: "Map: He Tore Down Motels Where Poor Residents Lived During a Housing Crisis."
+  - title: "Map: He Tore Down Motels Where Poor Residents Lived During a Housing Crisis"
     tag: design & graphics
     description: >-
         I designed and developed a scrollytelling map of the properties bought by a Reno developer for
@@ -47,16 +47,6 @@ examples:
       campaign finance information.
     img: 2020fundraising.png
     url: https://projects.fivethirtyeight.com/2020-fundraising/
-
-  - title: Suggested poems for Gmail
-    tag: fun
-    description: >-
-      Released on April Fools' Day 2020, this browser extension replaced Gmail’s
-      Smart Replies with lines of poetry. It was enjoyed by many, including
-      Gmail project manager Paul Lambert, who wrote, “This is amazing. I wish we
-      had thought of it!” It was mentioned on Lifehacker and The Verge.
-    img: poems.png
-    url: https://chrome.google.com/webstore/detail/suggested-poems-for-gmail/kjjcalmhcemhafjcoanjjllfjdfnnhid
 
   - title: FEC loader
     tag: tool
@@ -94,6 +84,16 @@ examples:
       Democrats raise money.
     img: actblue.jpg
     url: https://fivethirtyeight.com/features/how-actblue-is-trying-to-turn-small-donations-into-a-blue-wave/
+
+  - title: Suggested poems for Gmail
+    tag: fun
+    description: >-
+      Released on April Fools' Day 2020, this browser extension replaced Gmail’s
+      Smart Replies with lines of poetry. It was enjoyed by many, including
+      Gmail project manager Paul Lambert, who wrote, “This is amazing. I wish we
+      had thought of it!” It was mentioned on Lifehacker and The Verge.
+    img: poems.png
+    url: https://www.theverge.com/2019/4/1/18290841/chrome-extension-google-algorithm-canned-replies-random-poetry-april-fools
 
   - title: You donated to kids with cancer. This Vegas telemarketer cashed in.
     tag: graphics & analysis
