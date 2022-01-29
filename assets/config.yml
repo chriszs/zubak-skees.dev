@@ -29,34 +29,14 @@ examples:
     img: reno.png
     url: https://www.propublica.org/article/he-tore-down-motels-where-poor-residents-lived-during-a-housing-crisis-city-leaders-did-nothing
 
-  - title: Can you point to Ukraine on a map?
-    tag: fun
-    description: >-
-      Created a quick Serverless API and Observable notebook for this interactive
-      knowledge test which asked users to point to Ukraine after a cabinet secretary
-      asked an NPR anchor if she could. It received a million attempts,
-      only 300,000 of which were from bots.
-    img: ukraine.png
-    url: https://observablehq.com/@chriszs/point-to-ukraine-on-a-map
-
-  - title: Bad Decision Maker
-    tag: fun
-    description: >-
-      Created this progressive web app with Svelte, Material Design and Serverless to help
-      a collective of chaotic creatives make bad deicions. Features dark mode and emojis.
-      A work-in-progress.
-    img: baddecisions.png
-    url: https://baddecisions.app/
-
-  - title: You donated to kids with cancer. This Vegas telemarketer cashed in.
-    tag: graphics & analysis
-    description: >-
-      Worked with data fellow Rosie Cima to analyze a universe of PACs that raised from
-      small-dollar donors and spent mostly on themselves. Zeroed into one telemarketer's
-      charitable solicitation operation with a reporter. Built graphics to tell the
-      story.
-    img: pacnetwork.png
-    url: https://publicintegrity.org/federal-politics/charitable-contributions/
+  #- title: Bad Decision Maker
+  #  tag: fun
+  #  description: >-
+  #    Created this progressive web app with Svelte, Material Design and Serverless to help
+  #    a collective of chaotic creatives make bad deicions. Features dark mode and emojis.
+  #    A work-in-progress.
+  #  img: baddecisions.png
+  #  url: https://baddecisions.app/
 
   - title: What first-quarter fundraising can tell us about 2020
     tag: data processing & analysis
@@ -64,8 +44,7 @@ examples:
       To show the state of presidential money, I crunched the data behind this
       graphics story designed and developed by Julia Wolfe of FiveThirtyEight.
       The analysis used Python code and relied on a real-time SQL database of
-      campaign finance information. It also informed the rest of filing day
-      coverage.
+      campaign finance information.
     img: 2020fundraising.png
     url: https://projects.fivethirtyeight.com/2020-fundraising/
 
@@ -75,20 +54,28 @@ examples:
       Released on April Fools' Day 2020, this browser extension replaced Gmail’s
       Smart Replies with lines of poetry. It was enjoyed by many, including
       Gmail project manager Paul Lambert, who wrote, “This is amazing. I wish we
-      had thought of it!” It was mentioned on Lifehacker and The Verge. Nearly
-      600 people installed it.
+      had thought of it!” It was mentioned on Lifehacker and The Verge.
     img: poems.png
     url: https://chrome.google.com/webstore/detail/suggested-poems-for-gmail/kjjcalmhcemhafjcoanjjllfjdfnnhid
 
   - title: FEC loader
     tag: tool
     description: >-
-      I released this set of flexible Node.js command line utilities designed to
+      I released this set of flexible Node.js utilities designed to
       discover, convert and load raw Federal Election Commission filings into a
-      database. This loads filings of unprecedented
-      size with ease, allowing anyone to analyze FEC data in detail.
+      database. This code, used by Journalists at the Washington Post and New York Times,
+      loads filing of unprecedented size with ease, allowing anyone to analyze FEC data in detail.
     img: fec.png
     url: https://github.com/PublicI/fec-loader/tree/subcommands
+
+  - title: Public financial disclosure parser
+    tag: tool
+    description: >-
+      I built a tool that helped four newsrooms build a database of Trump officials' financial histories. This was
+      used to report daily stories by the New York Times and Washington Post, to build ProPublica's Trump Town
+      news app and to report an award-winning national radio story with Reveal from the Center for Investigative Reporting.
+    img: citizensleuth.jpg
+    url: https://github.com/PublicI/pfd-parser
 
   - title: Abandoned in America
     tag: design & graphics
@@ -108,15 +95,15 @@ examples:
     img: actblue.jpg
     url: https://fivethirtyeight.com/features/how-actblue-is-trying-to-turn-small-donations-into-a-blue-wave/
 
-  - title: Public financial disclosure parser
-    tag: tool
+  - title: You donated to kids with cancer. This Vegas telemarketer cashed in.
+    tag: graphics & analysis
     description: >-
-      I built a tool that helped four newsrooms build a database of Trump officials' financial histories. This was
-      used to report daily stories by the New York Times and Washington Post, to build ProPublica's Trump Town
-      news app and to report an award-winning national radio story with Reveal from the Center for Investigative Reporting.
-      It caused at least one high-ranking official to revise his disclosures.
-    img: citizensleuth.jpg
-    url: https://github.com/PublicI/pfd-parser
+      Worked with data fellow Rosie Cima to analyze a universe of PACs that raised from
+      small-dollar donors and spent mostly on themselves. Zeroed into one telemarketer's
+      charitable solicitation operation with a reporter. Built graphics to tell the
+      story.
+    img: pacnetwork.png
+    url: https://publicintegrity.org/federal-politics/charitable-contributions/
 
   - title: Nuclear Negligence
     tag: story design
@@ -125,6 +112,16 @@ examples:
       Worked with an illustrator to develop a look and feel that helped tell the story.
     img: nuclear.png
     url: https://apps.publicintegrity.org/nuclear-negligence/
+
+  - title: Can you point to Ukraine on a map?
+    tag: fun
+    description: >-
+      Created a quick Serverless API and Observable notebook for this interactive
+      knowledge test which asked users to point to Ukraine after a cabinet secretary
+      asked an NPR anchor if she could. It received a million attempts,
+      only 300,000 of which were from bots.
+    img: ukraine.png
+    url: https://observablehq.com/@chriszs/point-to-ukraine-on-a-map
 
   #- title: Share of women in elected office in every state
   #  tag: data graphic
@@ -215,7 +212,7 @@ examples:
       embedded by Le Monde, El Pais, Süddeutsche Zeitung.
     tag: graphic & devops
     img: china.png
-    url: http://www.sueddeutsche.de/politik/interaktive-grafik-zu-offshore-leaks-geheime-geschaefte-der-maechtigen-und-reichen-1.1866146
+    url: https://elpais.com/especiales/2014/chinaleaks/
 
   - title: Breathless and Burdened graphics
     description: >-
