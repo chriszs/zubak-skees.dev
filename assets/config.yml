@@ -57,7 +57,7 @@ examples:
     description: >-
       I released this set of flexible Node.js utilities designed to
       discover, convert and load raw Federal Election Commission filings into a
-      database. This code, used by Journalists at the Washington Post and New York Times,
+      database. This code, trusted by journalists at the Washington Post and New York Times,
       loads filing of unprecedented size with ease, allowing anyone to analyze FEC data in detail.
     img: fec.png
     url: https://github.com/PublicI/fec-loader/tree/subcommands
@@ -65,20 +65,11 @@ examples:
   - title: Public financial disclosure parser
     tag: tool
     description: >-
-      I built a tool that helped four newsrooms build a database of Trump officials' financial histories. This was
-      used to report daily stories by the New York Times and Washington Post, to build ProPublica's Trump Town
+      I built a tool that helped newsrooms compile databases of Trump officials' financial histories. This was
+      used to report a daily story by the New York Times, to build ProPublica's Trump Town
       news app and to report an award-winning national radio story with Reveal from the Center for Investigative Reporting.
     img: citizensleuth.jpg
     url: https://github.com/PublicI/pfd-parser
-
-  - title: Abandoned in America
-    tag: design & graphics
-    description: >-
-      This was an ambitious multi-part series on the places and people with
-      little political clout. I designed and developed the presentation, as well as overseeing data analysis
-      and graphics production.
-    img: storm.png
-    url: https://apps.publicintegrity.org/abandoned-in-america/disastrous-recovery
 
   - title: How ActBlue is trying to turn small donations into a blue wave
     tag: data processing & analysis
@@ -102,7 +93,7 @@ examples:
   - title: You donated to kids with cancer. This Vegas telemarketer cashed in.
     tag: graphics & analysis
     description: >-
-      Worked with data fellow Rosie Cima to analyze a universe of PACs that raised from
+      Analyzed a universe of PACs that raised from
       small-dollar donors and spent mostly on themselves. Zeroed into one telemarketer's
       charitable solicitation operation with a reporter. Built graphics to tell the
       story.
@@ -116,6 +107,15 @@ examples:
       Worked with an illustrator to develop a look and feel that helped tell the story.
     img: nuclear.png
     url: https://apps.publicintegrity.org/nuclear-negligence/
+
+  - title: Abandoned in America
+    tag: design & graphics
+    description: >-
+      This was an ambitious multi-part series on the places and people with
+      little political clout. I designed and developed the presentation, as well as overseeing data analysis
+      and graphics production.
+    img: storm.png
+    url: https://apps.publicintegrity.org/abandoned-in-america/disastrous-recovery
 
   - title: Can you point to Ukraine on a map?
     tag: fun
@@ -181,7 +181,7 @@ examples:
 
   - title: Fatal Extraction
     description: >-
-      Designed and developed this multimedia presentation on miners dying in Australian mines in Africa. Nominated for an Emmy.
+      Designed and developed this Emmy-nominated multimedia presentation on miners dying in Africa for ICIJ.
     tag: multimedia design
     img: fatalextraction.png
     url: https://projects.icij.org/fatalextraction/
@@ -210,8 +210,8 @@ examples:
 
   - title: China Leaks
     description: >-
-      Helped the International Consortium of Investigative Journalists report the China phase of its Offshore
-      Leaks investigation by facilitating communication and database access between a far-flung reporting team.
+      Helped the ICIJ report on China phase of its Offshore
+      Leaks investigation.
       Designed and developed a graphic to show the results, which was localized into half a dozen languages,
       embedded by Le Monde, El Pais, Süddeutsche Zeitung.
     tag: graphic & devops
