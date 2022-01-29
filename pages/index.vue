@@ -67,7 +67,7 @@ h1 {
 .container p {
     padding-top: 20px;
     font-size: 80%;
-    max-width: 90%;
+    max-width: 70%;
     margin-right: auto;
     margin-left: auto;
 }
