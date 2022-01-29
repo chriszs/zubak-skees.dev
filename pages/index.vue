@@ -65,7 +65,11 @@ h1 {
 }
 
 .container p {
+    padding-top: 20px;
     font-size: 80%;
+    max-width: 90%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .emailMe {
