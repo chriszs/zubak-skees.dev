@@ -5,9 +5,9 @@
         <div class="container">
             <h1>{{ name }}</h1>
 
-            <titles :titles="titles" />
-
             <links :links="links" />
+
+            <p>{{ chatter }}</p>
 
             <!--
             <p class="emailMeContainer">
@@ -29,14 +29,12 @@ import config from '~/assets/config.yml';
 import examples from '~/components/examples.vue';
 import top from '~/components/top.vue';
 import links from '~/components/links.vue';
-import titles from '~/components/titles.vue';
 
 export default {
     components: {
         examples,
         top,
         links,
-        titles,
     },
     data() {
         return {
@@ -64,6 +62,10 @@ h1 {
     color: rgb(50, 50, 50);
     font-size: 200%;
     text-align: center;
+}
+
+.container p {
+    font-size: 80%;
 }
 
 .emailMe {
