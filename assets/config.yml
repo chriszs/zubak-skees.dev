@@ -45,6 +45,23 @@ examples:
     img: statapp.png
     url: https://www.statnews.com/stat-app/
 
+  - title: "Laid off: 5 million jobs and counting"
+    tag: data processing and graphics
+    description: >-
+        I built this interactive graphic to showcase data collected by a Big Local News project to
+        scrape layoff notices from all 50 states. I contributed open source scrapers to the project
+        for several states as a volunteer.
+    img: laidoff.png
+    url: https://observablehq.com/@chriszs/warn-scraper-coverage
+
+  - title: "TV Kitchen"
+    tag: data processing
+    description: >-
+        I contributed to this Knight-funded project to process TV data in real time. The Node.js
+        framework ingests streaming TV feeds and processes it to extract captions and other data.
+    img: tvkitchen.png
+    url: https://tv.kitchen
+
   #- title: Bad Decision Maker
   #  tag: fun
   #  description: >-
