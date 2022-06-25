@@ -71,6 +71,16 @@ examples:
   #  img: baddecisions.png
   #  url: https://baddecisions.app/
 
+
+  - title: "White House document shows 18 states in coronavirus ‘red zone’"
+    tag: graphic
+    description: >-
+      I made maps to show the states in the “red zone” of the coronavirus pandemic,
+      the first time this White House metric was published as the president
+      downplayed the pandemic.
+    img: covidredzone.png
+    url: https://archive.publicintegrity.org/health/coronavirus-and-inequality/exclusive-white-house-document-shows-18-states-in-coronavirus-red-zone-covid-19/
+
   - title: What first-quarter fundraising can tell us about 2020
     tag: data processing & analysis
     description: >-
