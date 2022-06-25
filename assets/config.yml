@@ -27,6 +27,7 @@ examples:
         ward-level scraper for the Washington Post to map the results live on election night.
     img: dcelection.png
     url: https://www.washingtonpost.com/elections/election-results/district-of-columbia/2022-primaries/
+
   - title: "Map: He Tore Down Motels Where Poor Residents Lived During a Housing Crisis"
     tag: graphics
     description: >-
@@ -34,6 +35,15 @@ examples:
         this ProPublica investigative project.
     img: reno.png
     url: https://www.propublica.org/article/he-tore-down-motels-where-poor-residents-lived-during-a-housing-crisis-city-leaders-did-nothing
+
+  - title: "STAT App"
+    tag: mobile app
+    description: >-
+        For STAT, I built a mobile app for iOS and Android to showcase their stories and better engage
+        mobile readers. The app lets readers follow their favorite topics and reporters, save stories
+        for later reading and login with their STAT+ account.
+    img: statapp.png
+    url: https://www.statnews.com/stat-app/
 
   #- title: Bad Decision Maker
   #  tag: fun
