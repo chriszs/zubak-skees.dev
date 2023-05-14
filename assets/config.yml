@@ -247,15 +247,15 @@ examples:
   #   img: whosbuyingsenate.png
   #   url: https://www.publicintegrity.org/2014/09/02/15447/whos-buying-senate
 
-  - title: China Leaks
-    description: >-
-      Helped the ICIJ report on China phase of its Offshore
-      Leaks investigation.
-      Designed and developed a graphic to show the results, which was localized into half a dozen languages,
-      embedded by Le Monde, El Pais, Süddeutsche Zeitung.
-    tag: graphics
-    img: china.png
-    url: https://elpais.com/especiales/2014/chinaleaks/
+  # - title: China Leaks
+  #   description: >-
+  #     Helped the ICIJ report on China phase of its Offshore
+  #     Leaks investigation.
+  #     Designed and developed a graphic to show the results, which was localized into half a dozen languages,
+  #     embedded by Le Monde, El Pais, Süddeutsche Zeitung.
+  #   tag: graphics
+  #   img: china.png
+  #   url: https://elpais.com/especiales/2014/chinaleaks/
 
   - title: Breathless and Burdened graphics
     description: >-
