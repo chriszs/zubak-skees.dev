@@ -1,13 +1,23 @@
-<template>
-    <div>
-        <top />
+---
+import Layout from '../layouts/Layout.astro';
+
+import config from '../../assets/config.yml';
+
+import Examples from '../components/examples.vue';
+import Top from '../components/top.vue';
+import Links from '../components/links.vue';
+---
+
+<Layout title="Chris Zubak-Skees">
+    <main>
+        <Top />
 
         <div class="container">
-            <h1>{{ name }}</h1>
+            <h1>{ config.name }</h1>
 
-            <links :links="links" />
+            <Links links={ config.links } />
 
-            <p>{{ chatter }}</p>
+            <p>{ config.chatter }</p>
 
             <!--
             <p class="emailMeContainer">
@@ -20,31 +30,11 @@
             -->
         </div>
 
-        <examples :examples="examples" />
-    </div>
-</template>
+        <Examples examples={ config.examples } />
+    </main>
+</Layout>
 
-<script>
-import config from '~/assets/config.yml';
-import examples from '~/components/examples.vue';
-import top from '~/components/top.vue';
-import links from '~/components/links.vue';
-
-export default {
-    components: {
-        examples,
-        top,
-        links,
-    },
-    data() {
-        return {
-            ...config,
-        };
-    },
-};
-</script>
-
-<style lang="less">
+<style>
 h1 {
     margin: 0;
     margin-bottom: 0;

@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import example from '~/components/example.vue';
+import example from './example.vue';
 
 export default {
     components: {

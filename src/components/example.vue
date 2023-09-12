@@ -53,7 +53,7 @@ export default {
 };
 </script>
 
-<style lang="less">
+<style>
 a {
     text-decoration: none;
 }
@@ -63,7 +63,6 @@ a:hover h2 {
 }
 
 .tag {
-    // background-color: rgb(50,50,50);// #323232;
     color: white;
     text-transform: uppercase;
     font-size: 12px;
