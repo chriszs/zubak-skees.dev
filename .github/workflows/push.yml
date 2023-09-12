@@ -9,17 +9,11 @@ jobs:
       with:
         node-version: 18
     - name: install
-      with:
-        entrypoint: npm
-        args: ci --production
+      run: npm ci
     - name: build
-      with:
-        entrypoint: npm
-        args: run build
+      run: npm run build
     - name: push
       env:
         AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
         AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-      with:
-        entrypoint: npm
-        args: run push
+      run: npm run push
