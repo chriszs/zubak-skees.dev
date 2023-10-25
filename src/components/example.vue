@@ -67,7 +67,7 @@ a:hover h2 {
     padding: 3px 5px;
     border-radius: 2px;
     text-decoration: none;
-    border: 1px solid black;
+    border: 1px solid rgb(150,150,150);
     background-color: white;
 }
 
@@ -82,6 +82,7 @@ a:hover h2 {
     background-color: white;
     border-radius: 2px;
     margin-bottom: 15px;
+    border: 1px solid rgb(200,200,200);
 }
 
 .exampleImage {
