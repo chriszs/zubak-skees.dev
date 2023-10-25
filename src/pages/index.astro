@@ -15,9 +15,9 @@ import Links from '../components/links.vue';
         <div class="container">
             <h1>{ config.name }</h1>
 
-            <Links links={ config.links } />
-
             <p>{ config.chatter }</p>
+
+            <Links links={ config.links } />
 
             <!--
             <p class="emailMeContainer">
@@ -39,7 +39,6 @@ h1 {
     margin: 0;
     margin-bottom: 0;
     line-height: 110%;
-    margin-bottom: 5px;
 }
 
 .container {
@@ -55,7 +54,7 @@ h1 {
 }
 
 .container p {
-    padding-top: 20px;
+    margin-top: 5px;
     font-size: 80%;
     max-width: 70%;
     margin-right: auto;

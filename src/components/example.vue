@@ -1,17 +1,14 @@
 <template>
     <div class="exampleContainer">
-        <a
-            :href="url"
-        >
-
+        <a :href="url">
             <div
                 class="exampleImage"
                 :style="'background-image:url(img/' + img + ')'"
-            />
+            >
+                <span class="tag">{{ tag }}</span>
+            </div>
 
             <div class="exampleText">
-                <span class="tag">{{ tag }}</span>
-
                 <h2>
                     {{ title }}
                 </h2>
@@ -19,9 +16,7 @@
                 <p class="description">
                     {{ description }}
                 </p>
-
             </div>
-
         </a>
     </div>
 </template>
@@ -31,25 +26,25 @@ export default {
     props: {
         tag: {
             type: String,
-            default: ''
+            default: "",
         },
         url: {
             type: String,
-            default: ''
+            default: "",
         },
         title: {
             type: String,
-            default: ''
+            default: "",
         },
         img: {
             type: String,
-            default: ''
+            default: "",
         },
         description: {
             type: String,
-            default: ''
-        }
-    }
+            default: "",
+        },
+    },
 };
 </script>
 
@@ -63,13 +58,17 @@ a:hover h2 {
 }
 
 .tag {
-    color: white;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: rgb(50,50,50);
     text-transform: uppercase;
     font-size: 12px;
     padding: 3px 5px;
     border-radius: 2px;
     text-decoration: none;
-    background: #47b4b9;
+    border: 1px solid black;
+    background-color: white;
 }
 
 .exampleContainer {
@@ -80,26 +79,34 @@ a:hover h2 {
     width: 22%; */
     width: 100%;
     padding: 1%;
+    background-color: white;
+    border-radius: 2px;
+    margin-bottom: 15px;
 }
 
 .exampleImage {
+    position: relative;
     width: 25%;
     height: 180px;
     background-size: cover;
     background-repeat: no-repeat;
-    transition: background-size .5s;
+    transition: background-size 0.5s;
     /* margin-top: 8px; */
     float: left;
-    box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15) inset;
-    -moz-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15) inset;
-    -webkit-box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.15) inset;
+    border-radius: 2px;
+    filter: grayscale(30%);
+}
 
+a:hover .exampleImage {
+    filter: grayscale(0%);
 }
 
 .exampleText {
     float: left;
     width: 63%;
     padding-left: 2%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 h2 {
@@ -107,11 +114,13 @@ h2 {
     font-size: 16px;
     height: 50px;
     */
-    font-size: 160%;
+    font-size: 150%;
     margin: 0;
     padding: 0;
     margin-bottom: 5px;
     margin-top: 5px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
 }
 
 .exampleContainer:after {
@@ -122,6 +131,8 @@ h2 {
 
 .description {
     font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 @media (max-width: 800px) {
@@ -144,7 +155,8 @@ h2 {
         font-size: 13px;
     }
 
-    .exampleImage, .exampleText {
+    .exampleImage,
+    .exampleText {
         width: 100%;
         float: none;
     }
@@ -157,5 +169,4 @@ h2 {
         line-height: 25px;
     }
 }
-
 </style>
