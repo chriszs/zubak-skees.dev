@@ -1,6 +1,6 @@
 <template>
-    <div class="exampleContainer">
-        <a :href="url">
+    <a :href="url">
+        <div class="exampleContainer">
             <div
                 class="exampleImage"
                 :style="'background-image:url(img/' + img + ')'"
@@ -17,8 +17,8 @@
                     {{ description }}
                 </p>
             </div>
-        </a>
-    </div>
+        </div>
+    </a>
 </template>
 
 <script>
@@ -61,13 +61,13 @@ a:hover h2 {
     position: absolute;
     top: 10px;
     left: 10px;
-    color: rgb(50,50,50);
+    color: rgb(50, 50, 50);
     text-transform: uppercase;
     font-size: 12px;
     padding: 3px 5px;
     border-radius: 2px;
     text-decoration: none;
-    border: 1px solid rgb(150,150,150);
+    border: 1px solid rgb(150, 150, 150);
     background-color: white;
 }
 
@@ -82,7 +82,11 @@ a:hover h2 {
     background-color: white;
     border-radius: 2px;
     margin-bottom: 15px;
-    border: 1px solid rgb(200,200,200);
+    border: 1px solid rgb(200, 200, 200);
+}
+
+a:hover .exampleContainer {
+    border: 1px solid rgb(100, 100, 100);
 }
 
 .exampleImage {
@@ -106,7 +110,7 @@ a:hover .exampleImage {
     float: left;
     width: 63%;
     padding-left: 2%;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 400;
 }
 
@@ -120,7 +124,7 @@ h2 {
     padding: 0;
     margin-bottom: 5px;
     margin-top: 5px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-weight: 700;
 }
 
