@@ -32,7 +32,7 @@ examples:
     img: reno.png
     url: https://www.propublica.org/article/he-tore-down-motels-where-poor-residents-lived-during-a-housing-crisis-city-leaders-did-nothing
 
-  - title: "STAT App"
+  - title: "STAT"
     tag: mobile app
     description: >-
         For STAT, built a mobile app for iOS and Android to showcase their stories and better engage
