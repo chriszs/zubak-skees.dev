@@ -71,6 +71,11 @@ a:hover h2 {
     background-color: white;
 }
 
+
+a:hover .tag {
+    background-color: rgb(241, 241, 232);
+}
+
 .exampleContainer {
     /* border: 1px solid rgb(200,200,200); */
     margin-bottom: 5px;
