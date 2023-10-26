@@ -25,13 +25,13 @@ examples:
     img: findyourdistrict.png
     url: https://www.washingtonpost.com/election-results/2022/house/
 
-  - title: "2022 District of Columbia primary elections results"
-    tag:  data processing
-    description: >-
-        For the D.C. mayoral and attorney general primaries, built a precinct- and
-        ward-level scraper for the Washington Post to map the results live on election night.
-    img: dcelection.png
-    url: https://www.washingtonpost.com/elections/election-results/district-of-columbia/2022-primaries/
+#   - title: "2022 District of Columbia primary elections results"
+#     tag:  data processing
+#     description: >-
+#         For the D.C. mayoral and attorney general primaries, built a precinct- and
+#         ward-level scraper for the Washington Post to map the results live on election night.
+#     img: dcelection.png
+#     url: https://www.washingtonpost.com/elections/election-results/district-of-columbia/2022-primaries/
 
   - title: "Map: He Tore Down Motels Where Poor Residents Lived During a Housing Crisis"
     tag: graphics
