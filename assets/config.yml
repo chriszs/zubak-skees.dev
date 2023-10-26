@@ -39,7 +39,7 @@ examples:
         mobile readers. The app lets readers follow their favorite topics and reporters, save stories
         for later reading and login with their STAT+ account.
     img: statapp.png
-    url: https://www.statnews.com/stat-app/
+    url: https://apps.apple.com/us/app/stat-news/id1324796990
 
   - title: "Laid off: 5 million jobs and counting"
     tag: data processing and graphics
