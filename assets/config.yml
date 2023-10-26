@@ -96,15 +96,15 @@ examples:
     img: 2020fundraising.png
     url: https://projects.fivethirtyeight.com/2020-fundraising/
 
-  - title: FEC loader
-    tag: data processing
-    description: >-
-      Released this set of flexible Node.js utilities designed to
-      discover, convert and load raw Federal Election Commission filings into a
-      database. This code, trusted by journalists at the Washington Post and New York Times,
-      loads filing of unprecedented size with ease, allowing anyone to analyze FEC data in detail.
-    img: fec.png
-    url: https://github.com/PublicI/fec-loader/tree/subcommands
+#   - title: FEC loader
+#     tag: data processing
+#     description: >-
+#       Released this set of flexible Node.js utilities designed to
+#       discover, convert and load raw Federal Election Commission filings into a
+#       database. This code, trusted by journalists at the Washington Post and New York Times,
+#       loads filing of unprecedented size with ease, allowing anyone to analyze FEC data in detail.
+#     img: fec.png
+#     url: https://github.com/PublicI/fec-loader/tree/subcommands
 
   - title: Public financial disclosure parser
     tag: data processing
