@@ -16,6 +16,22 @@ links:
     url: mailto:chriszs@gmail.com
 
 examples:
+  - title: "2022 election results"
+    tag: data processing and visualization
+    description: >-
+        For the midterm elections, I built scrapers to power live election night predictions,
+        visualized model results, contributed to data pipelines, debugged problems and
+        prototyped and refined a find-your-district personalization feature.
+    img: findyourdistrict.png
+    url: https://www.washingtonpost.com/election-results/2022/house/
+
+  - title: "Meet the mega-donors pumping millions into the 2022 midterms"
+    tag:  data and analysis
+    description: >-
+        I analyzed millions of campaign finance records to find the biggest donors to the 2022 midterms.
+    img: topdonors.png
+    url: https://www.washingtonpost.com/politics/interactive/2022/top-election-donors-2022/
+
   - title: "2022 District of Columbia primary elections results"
     tag:  data processing
     description: >-
