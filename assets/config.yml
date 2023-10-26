@@ -115,14 +115,14 @@ examples:
     img: citizensleuth.jpg
     url: https://github.com/PublicI/pfd-parser
 
-  - title: How ActBlue is trying to turn small donations into a blue wave
-    tag: data processing & analysis
-    description: >-
-      Analyzed more than 80 million records in a nearly unprecedented analysis of Congressional
-      Democratic candidates' reliance on this fundraising platform as it became the de facto way
-      Democrats raise money.
-    img: actblue.jpg
-    url: https://fivethirtyeight.com/features/how-actblue-is-trying-to-turn-small-donations-into-a-blue-wave/
+#   - title: How ActBlue is trying to turn small donations into a blue wave
+#     tag: data processing & analysis
+#     description: >-
+#       Analyzed more than 80 million records in a nearly unprecedented analysis of Congressional
+#       Democratic candidates' reliance on this fundraising platform as it became the de facto way
+#       Democrats raise money.
+#     img: actblue.jpg
+#     url: https://fivethirtyeight.com/features/how-actblue-is-trying-to-turn-small-donations-into-a-blue-wave/
 
   - title: Suggested poems for Gmail
     tag: fun
@@ -144,13 +144,13 @@ examples:
     img: pacnetwork.png
     url: https://archive.publicintegrity.org/politics/charitable-contributions/
 
-  - title: Nuclear Negligence
-    tag: story design
-    description: >-
-      Designed and developed the presentation for this series on the frightening near-misses in the nation's nuclear complex.
-      Worked with an illustrator to develop a look and feel that helped tell the story.
-    img: nuclear.png
-    url: https://apps.publicintegrity.org/nuclear-negligence/
+#   - title: Nuclear Negligence
+#     tag: story design
+#     description: >-
+#       Designed and developed the presentation for this series on the frightening near-misses in the nation's nuclear complex.
+#       Worked with an illustrator to develop a look and feel that helped tell the story.
+#     img: nuclear.png
+#     url: https://apps.publicintegrity.org/nuclear-negligence/
 
   - title: Abandoned in America
     tag: design & graphics
