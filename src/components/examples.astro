@@ -5,7 +5,7 @@ const { examples } = Astro.props;
 ---
 
 <div class="examples">
-  {examples.map((data: any) => <Example {...data} />)}
+  {examples.map((data: any, i: number) => <Example {...data} index={i} />)}
 </div>
 
 <style>

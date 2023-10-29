@@ -1,14 +1,19 @@
 ---
 import { Image } from "astro:assets";
 
-const { tag, url, title, img, description } = Astro.props;
+const { tag, url, title, img, description, index } = Astro.props;
 ---
 
 <div>
   <a href={url}>
     <div class="exampleContainer">
       <div class="exampleImageContainer">
-        <Image class="exampleImage" src={img} alt="" />
+        <Image
+          class="exampleImage"
+          src={img}
+          alt=""
+          loading={index < 2 ? "eager" : "lazy"}
+        />
         <span class="tag">{tag}</span>
       </div>
 
@@ -81,7 +86,6 @@ const { tag, url, title, img, description } = Astro.props;
     float: left;
     border-radius: 2px;
     filter: grayscale(30%);
-
   }
 
   .exampleImage {
