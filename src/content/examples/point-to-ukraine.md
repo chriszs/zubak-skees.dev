@@ -9,4 +9,5 @@ description: >-
 img: ukraine.png
 url: https://observablehq.com/@chriszs/point-to-ukraine-on-a-map
 date: 2020-01-25
+sortOrder: 10
 ---

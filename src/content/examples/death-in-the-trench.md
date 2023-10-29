@@ -6,4 +6,5 @@ description: >-
 img: trench.png
 url: https://apps.publicintegrity.org/the-trench/
 date: 2017-12-14
+sortOrder: 11
 ---

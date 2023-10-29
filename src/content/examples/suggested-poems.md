@@ -9,4 +9,5 @@ description: >-
 img: poems.png
 url: https://www.theverge.com/2019/4/1/18290841/chrome-extension-google-algorithm-canned-replies-random-poetry-april-fools
 date: 2019-04-01
+sortOrder: 7
 ---

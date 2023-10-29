@@ -8,7 +8,8 @@ const exampleCollection = defineCollection({
         img: z.string(),
         description: z.string(),
         url: z.string().url(),
-        date: z.coerce.date()
+        date: z.coerce.date(),
+        sortOrder: z.number().int(),
     }),
 });
 

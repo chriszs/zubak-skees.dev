@@ -7,4 +7,5 @@ description: >-
 img: disclosures.png
 url: https://apps.publicintegrity.org/disclosure/statehouses/
 date: 2017-12-06
+sortOrder: 12
 ---

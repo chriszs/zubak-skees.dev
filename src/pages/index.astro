@@ -18,7 +18,7 @@ const examples = await getCollection("examples");
 const examplesData = examples.map((example: CollectionEntry) => example.data);
 
 const examplesSorted = examplesData.sort(
-  (a: any, b: any) => b.date.getTime() - a.date.getTime()
+  (a: any, b: any) => a.sortOrder-b.sortOrder
 );
 ---
 

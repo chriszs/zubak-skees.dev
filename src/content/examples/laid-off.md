@@ -8,4 +8,5 @@ description: >-
 img: laidoff.png
 url: https://observablehq.com/@chriszs/warn-scraper-coverage
 date: 2022-02-20
+sortOrder: 4
 ---

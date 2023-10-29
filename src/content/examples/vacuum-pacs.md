@@ -9,4 +9,5 @@ description: >-
 img: pacnetwork.png
 url: https://archive.publicintegrity.org/politics/charitable-contributions/
 date: 2018-12-23
+sortOrder: 8
 ---

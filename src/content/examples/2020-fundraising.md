@@ -9,4 +9,5 @@ description: >-
 img: 2020fundraising.png
 url: https://projects.fivethirtyeight.com/2020-fundraising/
 date: 2019-04-16
+sortOrder: 5
 ---

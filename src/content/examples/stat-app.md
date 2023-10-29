@@ -8,4 +8,5 @@ description: >-
 img: statapp.png
 url: https://apps.apple.com/us/app/stat-news/id1324796990
 date: 2018-01-23
+sortOrder: 3
 ---
