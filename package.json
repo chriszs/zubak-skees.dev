@@ -14,7 +14,6 @@
   },
   "dependencies": {
     "@astrojs/vue": "^3.0.0",
-    "@fontsource-variable/open-sans": "^5.0.18",
     "@fontsource/open-sans": "^5.0.17",
     "astro": "^3.0.12",
     "font-awesome": "^4.7.0",
