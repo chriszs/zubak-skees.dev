@@ -1,15 +1,11 @@
 ---
-import {
-  getCollection,
-  CollectionEntry,
-  CollectionEntryData,
-} from "astro:content";
+import { getCollection, type CollectionEntry } from "astro:content";
 
 import Layout from "../layouts/Layout.astro";
 
 import config from "../../assets/config.yml";
 
-import Examples from "../components/examples.vue";
+import Examples from "../components/examples.astro";
 import Top from "../components/top.vue";
 import Links from "../components/links.vue";
 
@@ -18,7 +14,7 @@ const examples = await getCollection("examples");
 const examplesData = examples.map((example: CollectionEntry) => example.data);
 
 const examplesSorted = examplesData.sort(
-  (a: any, b: any) => a.sortOrder-b.sortOrder
+  (a: any, b: any) => a.sortOrder - b.sortOrder
 );
 ---
 

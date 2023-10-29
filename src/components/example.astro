@@ -1,63 +1,40 @@
-<template>
-    <a :href="url">
-        <div class="exampleContainer">
-            <div
-                class="exampleImage"
-                :style="'background-image:url(img/' + img + ')'"
-            >
-                <span class="tag">{{ tag }}</span>
-            </div>
+---
+import { Image } from "astro:assets";
 
-            <div class="exampleText">
-                <h2>
-                    {{ title }}
-                </h2>
+const { tag, url, title, img, description } = Astro.props;
+---
 
-                <p class="description">
-                    {{ description }}
-                </p>
-            </div>
-        </div>
-    </a>
-</template>
+<div>
+  <a href={url}>
+    <div class="exampleContainer">
+      <div class="exampleImageContainer">
+        <Image class="exampleImage" src={img} alt="" />
+        <span class="tag">{tag}</span>
+      </div>
 
-<script>
-export default {
-    props: {
-        tag: {
-            type: String,
-            default: "",
-        },
-        url: {
-            type: String,
-            default: "",
-        },
-        title: {
-            type: String,
-            default: "",
-        },
-        img: {
-            type: String,
-            default: "",
-        },
-        description: {
-            type: String,
-            default: "",
-        },
-    },
-};
-</script>
+      <div class="exampleText">
+        <h2>
+          {title}
+        </h2>
+
+        <p class="description">
+          {description}
+        </p>
+      </div>
+    </div>
+  </a>
+</div>
 
 <style>
-a {
+  a {
     text-decoration: none;
-}
+  }
 
-a:hover h2 {
+  a:hover h2 {
     text-decoration: underline;
-}
+  }
 
-.tag {
+  .tag {
     position: absolute;
     top: 10px;
     left: 10px;
@@ -69,14 +46,13 @@ a:hover h2 {
     text-decoration: none;
     border: 1px solid rgb(150, 150, 150);
     background-color: white;
-}
+  }
 
-
-a:hover .tag {
+  a:hover .tag {
     background-color: rgb(241, 241, 232);
-}
+  }
 
-.exampleContainer {
+  .exampleContainer {
     /* border: 1px solid rgb(200,200,200); */
     margin-bottom: 5px;
     /*
@@ -88,13 +64,13 @@ a:hover .tag {
     border-radius: 2px;
     margin-bottom: 15px;
     border: 1px solid rgb(200, 200, 200);
-}
+  }
 
-a:hover .exampleContainer {
+  a:hover .exampleContainer {
     border: 1px solid rgb(100, 100, 100);
-}
+  }
 
-.exampleImage {
+  .exampleImageContainer {
     position: relative;
     width: 25%;
     height: 180px;
@@ -105,21 +81,28 @@ a:hover .exampleContainer {
     float: left;
     border-radius: 2px;
     filter: grayscale(30%);
-}
 
-a:hover .exampleImage {
+  }
+
+  .exampleImage {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+  }
+
+  a:hover .exampleImage {
     filter: grayscale(0%);
-}
+  }
 
-.exampleText {
+  .exampleText {
     float: left;
     width: 63%;
     padding-left: 2%;
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-}
+  }
 
-h2 {
+  h2 {
     /*
     font-size: 16px;
     height: 50px;
@@ -131,52 +114,52 @@ h2 {
     margin-top: 5px;
     font-family: "Open Sans", sans-serif;
     font-weight: 700;
-}
+  }
 
-.exampleContainer:after {
+  .exampleContainer:after {
     content: "";
     display: table;
     clear: both;
-}
+  }
 
-.description {
+  .description {
     font-size: 16px;
     margin-top: 5px;
     margin-bottom: 5px;
-}
+  }
 
-@media (max-width: 800px) {
+  @media (max-width: 800px) {
     .exampleContainer {
-        /*
+      /*
         width: 47%;
         */
-        padding: 1%;
+      padding: 1%;
     }
-}
+  }
 
-@media (max-width: 650px) {
+  @media (max-width: 650px) {
     .exampleContainer {
-        float: none;
-        width: 100%;
-        padding: 0;
+      float: none;
+      width: 100%;
+      padding: 0;
     }
 
     .description {
-        font-size: 13px;
+      font-size: 13px;
     }
 
-    .exampleImage,
+    .exampleImageContainer,
     .exampleText {
-        width: 100%;
-        float: none;
+      width: 100%;
+      float: none;
     }
 
     .exampleText {
-        margin-top: 10px;
+      margin-top: 10px;
     }
 
     .tag {
-        line-height: 25px;
+      line-height: 25px;
     }
-}
+  }
 </style>

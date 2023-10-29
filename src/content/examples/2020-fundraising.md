@@ -6,7 +6,7 @@ description: >-
     graphics story designed and developed by Julia Wolfe of FiveThirtyEight.
     The analysis used Python code and relied on a real-time SQL database of
     campaign finance information.
-img: 2020fundraising.png
+img: ./img/2020fundraising.png
 url: https://projects.fivethirtyeight.com/2020-fundraising/
 date: 2019-04-16
 sortOrder: 5
