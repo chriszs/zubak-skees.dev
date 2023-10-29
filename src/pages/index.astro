@@ -1,25 +1,39 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import {
+  getCollection,
+  CollectionEntry,
+  CollectionEntryData,
+} from "astro:content";
 
-import config from '../../assets/config.yml';
+import Layout from "../layouts/Layout.astro";
 
-import Examples from '../components/examples.vue';
-import Top from '../components/top.vue';
-import Links from '../components/links.vue';
+import config from "../../assets/config.yml";
+
+import Examples from "../components/examples.vue";
+import Top from "../components/top.vue";
+import Links from "../components/links.vue";
+
+const examples = await getCollection("examples");
+
+const examplesData = examples.map((example: CollectionEntry) => example.data);
+
+const examplesSorted = examplesData.sort(
+  (a: any, b: any) => b.date.getTime() - a.date.getTime()
+);
 ---
 
 <Layout title="Chris Zubak-Skees">
-    <main>
-        <Top />
+  <main>
+    <Top />
 
-        <div class="container">
-            <h1>{ config.name }</h1>
+    <div class="container">
+      <h1>{config.name}</h1>
 
-            <p>{ config.chatter }</p>
+      <p>{config.chatter}</p>
 
-            <Links links={ config.links } />
+      <Links links={config.links} />
 
-            <!--
+      <!--
             <p class="emailMeContainer">
                 Want to get in touch?&nbsp;&nbsp;
                 <a
@@ -28,20 +42,20 @@ import Links from '../components/links.vue';
                 ><i class="fa fa-paper-plane" /> Email me</a>
             </p>
             -->
-        </div>
+    </div>
 
-        <Examples examples={ config.examples } />
-    </main>
+    <Examples examples={examplesSorted} />
+  </main>
 </Layout>
 
 <style>
-h1 {
+  h1 {
     margin: 0;
     margin-bottom: 0;
     line-height: 110%;
-}
+  }
 
-.container {
+  .container {
     padding-top: 30px;
     padding-bottom: 15px;
     max-width: 1050px;
@@ -51,28 +65,28 @@ h1 {
     color: rgb(50, 50, 50);
     font-size: 200%;
     text-align: center;
-}
+  }
 
-.container p {
+  .container p {
     margin-top: 5px;
     font-size: 80%;
     max-width: 70%;
     margin-right: auto;
     margin-left: auto;
-}
+  }
 
-.emailMe {
+  .emailMe {
     border: 1px solid rgb(200, 200, 200);
     border-radius: 2px;
     display: inline-block;
     padding: 5px;
     font-size: 16px;
     padding-right: 10px;
-}
+  }
 
-.emailMeContainer {
+  .emailMeContainer {
     font-size: 16px;
     margin-top: 25px;
     margin-bottom: 0;
-}
+  }
 </style>
