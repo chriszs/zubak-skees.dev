@@ -33,8 +33,8 @@ examples:
 #     img: dcelection.png
 #     url: https://www.washingtonpost.com/elections/election-results/district-of-columbia/2022-primaries/
 
-  - title: "Map: He Tore Down Motels Where Poor Residents Lived During a Housing Crisis"
-    tag: graphics
+  - title: "He Tore Down Motels Where Poor Residents Lived During a Housing Crisis"
+    tag: map
     description: >-
         Designed and developed a scrollytelling map of the properties bought by a Reno developer for
         this ProPublica investigative project.
