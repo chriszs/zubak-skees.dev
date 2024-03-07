@@ -1,5 +1,5 @@
 ---
-title: Wilbur Ross will shepherd Trump’s trade policy. He also owns ships.
+title: Wilbur Ross will shepherd Trump’s trade policy. Should he also own a shipping firm?
 org: Center for Public Integrity
 description: >-
     Built a map using Mapbox.js to display millions of ship locations collected by satellites, found a cabinet secretary's
