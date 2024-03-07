@@ -4,7 +4,7 @@ org: STAT
 tags:
     - apps
 description: >-
-    Built a mobile app for iOS and Android to showcase their stories and better engage
+    Built a mobile app for iOS and Android to showcase STAT's stories and better engage
     mobile readers. The app lets readers follow their favorite topics and reporters, save stories
     for later reading and login with their STAT+ account.
 img: ./img/statapp.png
