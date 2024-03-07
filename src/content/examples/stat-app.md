@@ -1,6 +1,8 @@
 ---
 title: "STAT News"
-tag: mobile app
+org: STAT
+tags:
+    - apps
 description: >-
     For STAT, built a mobile app for iOS and Android to showcase their stories and better engage
     mobile readers. The app lets readers follow their favorite topics and reporters, save stories

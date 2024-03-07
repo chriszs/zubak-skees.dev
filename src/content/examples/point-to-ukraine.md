@@ -1,6 +1,8 @@
 ---
 title: Can you point to Ukraine on a map?
-tag: fun
+org: Personal project
+tags:
+    - fun
 description: >-
     Created a quick Serverless API and Observable notebook for this interactive
     knowledge test which asked users to point to Ukraine after a cabinet secretary

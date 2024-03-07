@@ -3,7 +3,7 @@ import "@fontsource/open-sans/latin-400.css";
 import "@fontsource/open-sans/latin-700.css";
 
 interface Props {
-	title: string;
+  title: string;
 }
 
 const { title } = Astro.props;
@@ -11,32 +11,41 @@ const { title } = Astro.props;
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="description" content="A developer, designer and journalist" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="icon" type="image/png" href="/favicon.png">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="A developer, designer and journalist" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/png" href="/favicon.png" />
 
-		<meta name="generator" content={Astro.generator} />
-		<title>{title}</title>
-	</head>
-	<body>
-		<slot />
-	</body>
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+  </head>
+  <body>
+    <slot />
+  </body>
 </html>
 <style is:global>
-    @import url('../../node_modules/font-awesome/css/font-awesome.min.css');
+  @import url("../../node_modules/font-awesome/css/font-awesome.min.css");
 
-    body, html {
-        margin: 0;
-        padding: 0;
-        font-family: 'Open Sans', sans-serif;
-        background-color: rgb(241, 240, 239);
-    }
+  body,
+  html {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+    background-color: rgb(241, 240, 239);
+  }
 
-    @media (max-width: 650px) {
-        body {
-            font-size: 70%;
-        }
+  .hidden {
+    display: none;
+  }
+
+  .active {
+    background-color: rgb(241, 241, 232) !important;
+  }
+
+  @media (max-width: 650px) {
+    body {
+      font-size: 70%;
     }
+  }
 </style>

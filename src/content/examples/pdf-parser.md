@@ -1,6 +1,8 @@
 ---
 title: Public financial disclosure parser
-tag: data processing
+org: Center for Public Integrity
+tags:
+    - data processing & analysis
 description: >-
     Built a tool that helped newsrooms compile databases of Trump officials' financial histories. This was
     used to report a daily story by the New York Times, to build ProPublica's Trump Town

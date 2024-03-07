@@ -1,0 +1,29 @@
+---
+import { tagClass } from "../utils/tags.ts";
+
+const { tag } = Astro.props;
+---
+
+<span class={`tag ${tagClass(tag)}`}>{tag}</span>
+
+<style>
+  .tag {
+    display: inline-block;
+    color: rgb(50, 50, 50);
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 3px 5px;
+    border-radius: 2px;
+    text-decoration: none;
+    border: 1px solid rgb(150, 150, 150);
+    background-color: white;
+    margin-right: 5px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    cursor: pointer;
+  }
+
+  .tag:hover {
+    background-color: rgb(241, 241, 232);
+  }
+</style>
