@@ -1,6 +1,8 @@
 ---
 title: What first-quarter fundraising can tell us about 2020
-tag: data processing & analysis
+org: FiveThirtyEight
+tags:
+    - data processing & analysis
 description: >-
     To show the state of presidential money, crunched the data behind this
     graphics story designed and developed by Julia Wolfe of FiveThirtyEight.

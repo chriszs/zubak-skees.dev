@@ -1,6 +1,8 @@
 ---
 title: "He Tore Down Motels Where Poor Residents Lived During a Housing Crisis"
-tag: map
+org: ProPublica
+tags:
+    - graphics & design
 description: >-
     Designed and developed a scrollytelling map of the properties bought by a Reno developer for
     this ProPublica investigative project.

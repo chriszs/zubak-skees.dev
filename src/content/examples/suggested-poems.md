@@ -1,6 +1,8 @@
 ---
 title: Suggested poems for Gmail
-tag: fun
+org: Personal project
+tags:
+    - fun
 description: >-
     Released on April Fools' Day 2020, this browser extension replaced Gmail’s
     Smart Replies with lines of poetry. It was enjoyed by many, including

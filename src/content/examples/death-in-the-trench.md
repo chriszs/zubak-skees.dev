@@ -1,6 +1,8 @@
 ---
 title: Death in the Trench
-tag: story design
+org: Center for Public Integrity
+tags:
+    - graphics & design
 description: >-
     Designed the presentation for this striking story on a preventable death and what it says about workplace safety enforcement.
 img: ./img/trench.png

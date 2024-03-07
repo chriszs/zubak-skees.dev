@@ -5,7 +5,8 @@ const exampleCollection = defineCollection({
     schema: ({ image }) =>
         z.object({
             title: z.string(),
-            tag: z.string(),
+            org: z.string(),
+            tags: z.array(z.string()),
             img: image(),
             description: z.string(),
             url: z.string().url(),

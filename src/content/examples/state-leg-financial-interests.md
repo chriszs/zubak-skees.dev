@@ -1,6 +1,8 @@
 ---
 title: Find your state legislators' financial interests
-tag: app
+org: Center for Public Integrity
+tags:
+    - apps
 description: >-
     Helped a reporting team collect, track and input data from nearly every state legislator's financial disclosure in the country,
     then built an app using DocumentCloud to search and view the disclosures.

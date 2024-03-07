@@ -1,6 +1,9 @@
 ---
 title: You donated to kids with cancer. This Vegas telemarketer cashed in.
-tag: graphics & analysis
+org: Center for Public Integrity
+tags:
+    - graphics & design
+    - data processing & analysis
 description: >-
     Analyzed a universe of PACs that raised from
     small-dollar donors and spent mostly on themselves. Zeroed into one telemarketer's

@@ -1,6 +1,10 @@
 ---
 title: "Laid off: 5 million jobs and counting"
-tag: data processing and graphics
+org: Big Local News
+tags:
+    - data processing & analysis
+    - graphics & design
+    - fun
 description: >-
     For fun, built this interactive graphic to showcase data collected by an open source Big Local News
     project to scrape layoff notices from all 50 states. Contributed open source scrapers to the project
