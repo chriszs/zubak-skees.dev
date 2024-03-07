@@ -49,6 +49,8 @@ const { examples } = Astro.props;
 <script>
   import { tagClass } from "../utils/tags.ts";
 
+  let selectedTag: string = "";
+
   const tags = document.querySelectorAll(".tag");
 
   tags.forEach((tag) => {
@@ -59,8 +61,17 @@ const { examples } = Astro.props;
       if (target && "textContent" in target) {
         const tag = String(target.textContent);
 
+        if (tag === selectedTag) {
+          selectedTag = "";
+        } else {
+          selectedTag = tag;
+        }
+
         document.querySelectorAll(`.tag`).forEach((el) => {
-          if (el.classList.contains(tagClass(tag))) {
+          if (
+            selectedTag !== "" &&
+            el.classList.contains(tagClass(selectedTag))
+          ) {
             el.classList.add("active");
           } else {
             el.classList.remove("active");
@@ -68,7 +79,10 @@ const { examples } = Astro.props;
         });
 
         document.querySelectorAll(".example").forEach((el) => {
-          if (el.classList.contains(tagClass(tag))) {
+          if (
+            selectedTag === "" ||
+            el.classList.contains(tagClass(selectedTag))
+          ) {
             el.classList.remove("hidden");
           } else {
             el.classList.add("hidden");
