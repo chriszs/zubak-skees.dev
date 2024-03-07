@@ -1,6 +1,6 @@
 ---
 title: "Laid off: 5 million jobs and counting"
-org: Big Local News
+org: Big Local News (volunteer)
 tags:
     - data processing & analysis
     - graphics & design
