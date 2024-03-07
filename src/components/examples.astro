@@ -8,6 +8,8 @@ const { examples } = Astro.props;
 
 <div class="examples">
   <div class="tags">
+    I do &#8230;
+
     {
       [...new Set(examples.flatMap((data: any, i: number) => data.tags))].map(
         (tag: string) => <Tag tag={tag} />
@@ -35,6 +37,8 @@ const { examples } = Astro.props;
 
   .tags {
     margin-bottom: 10px;
+    margin-left: 5px;
+    font-size: 14px;
   }
 
   @media (max-width: 650px) {
