@@ -1,5 +1,5 @@
 ---
-title: "STAT News"
+title: "STAT Mobile"
 org: STAT
 tags:
     - apps
