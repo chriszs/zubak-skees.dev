@@ -5,7 +5,7 @@ tags:
     - data processing & analysis
     - graphics & design
 description: >-
-    For fun, built this interactive graphic to showcase data collected by an open source Big Local News
+    For fun, built this interactive graphic to showcase data collected by an open source 
     project to scrape layoff notices from all 50 states. Contributed open source scrapers to the project
     for several states as a volunteer.
 img: ./img/laidoff.png

@@ -5,7 +5,7 @@ tags:
     - data processing & analysis
 description: >-
     To show the state of presidential money, crunched the data behind this
-    graphics story designed and developed by Julia Wolfe of FiveThirtyEight.
+    graphics story designed and developed by Julia Wolfe.
     The analysis used Python code and relied on a real-time SQL database of
     campaign finance information.
 img: ./img/2020fundraising.png
