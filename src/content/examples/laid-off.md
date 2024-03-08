@@ -1,5 +1,5 @@
 ---
-title: "Laid off: 5 million jobs and counting"
+title: "Laid off: 6 million jobs and counting"
 org: Big Local News (open source contributor)
 tags:
     - data processing & analysis
