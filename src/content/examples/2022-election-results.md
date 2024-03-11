@@ -5,7 +5,7 @@ tags:
     - data processing & analysis
 description: >-
     My scrapers helped the Post deliver election night predictions more reliably than competitors,
-    my visualizations helped explain them, data pipelines I worked on helped process data faster
+    my visualizations helped explain them, data pipelines I worked on helped process FEC data faster
     and my data analysis informed our coverage.
 img: ./img/findyourdistrict.png
 url: https://www.washingtonpost.com/election-results/2022/house/
