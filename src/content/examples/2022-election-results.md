@@ -4,9 +4,9 @@ org: The Washington Post
 tags:
     - data processing & analysis
 description: >-
-    For the midterm elections, I built scrapers to power live election night predictions,
-    visualized model results, contributed to data pipelines, analyzed FEC data and
-    prototyped and helped refine a find-your-district personalization feature.
+    My scrapers helped the Post deliver election night predictions more reliably than competitors,
+    my visualizations helped explain them, data pipelines I worked on helped process data faster
+    and my data analysis informed our coverage.
 img: ./img/findyourdistrict.png
 url: https://www.washingtonpost.com/election-results/2022/house/
 date: 2022-11-08
