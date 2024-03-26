@@ -4,7 +4,7 @@ org: The Washington Post
 tags:
     - data processing & analysis
 description: >-
-    My scrapers helped the Post deliver election night predictions more reliably than competitors,
+    My scrapers helped the Post deliver election night predictions,
     my visualizations helped explain them, data pipelines I worked on helped process FEC data faster
     and my data analysis informed our coverage.
 img: ./img/findyourdistrict.png
