@@ -1,15 +1,12 @@
 # zubak-skees.dev
 
-> 
-
 ## Project Structure
 
 You'll see the following folders and files:
 
-```
+```text
 /
 ├── public/
-│   └── favicon.svg
 ├── src/
 │   ├── components/
 │   │   └── Card.astro
