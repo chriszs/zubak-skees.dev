@@ -1,35 +1,38 @@
 {
   "name": "zubak-skees.dev",
   "type": "module",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "author": "Chris Zubak-Skees",
   "private": true,
   "scripts": {
     "dev": "astro dev",
     "start": "astro dev",
-    "build": "astro build",
+    "build": "astro check && astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "push": "s3-deploy './dist/**' --cwd './dist/' --bucket zubak-skees.dev --gzip --cache 120"
+    "push": "s3-deploy './dist/**' --cwd './dist/' --bucket zubak-skees.dev --gzip --cache 120",
+    "lint": "eslint --ext .js,.vue ."
   },
   "dependencies": {
-    "@astrojs/vue": "^3.0.0",
-    "@fontsource/open-sans": "^5.0.17",
-    "astro": "^3.0.12",
+    "@astrojs/check": "^0.8.3",
+    "@astrojs/vue": "^4.5.0",
+    "@fontsource/open-sans": "^5.0.28",
+    "@rollup/plugin-yaml": "^4.1.2",
+    "astro": "^4.12.3",
     "font-awesome": "^4.7.0",
     "s3-deploy": "^1.4.0",
-    "vue": "^3.3.4"
+    "sharp": "^0.33.4",
+    "typescript": "^5.5.4",
+    "vue": "^3.4.34"
   },
   "devDependencies": {
-    "@rollup/plugin-yaml": "^4.1.1",
-    "babel-eslint": "^10.1.0",
-    "eslint": "^7.4.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-loader": "^4.0.2",
-    "eslint-plugin-import": "^2.22.0",
+    "@babel/eslint-parser": "^7.25.1",
+    "eslint": "^8.57.0",
+    "eslint-config-standard": "^17.1.0",
+    "eslint-plugin-import": "^2.29.1",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.1",
-    "eslint-plugin-vue": "^9.17.0"
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-standard": "^5.0.0",
+    "eslint-plugin-vue": "^9.27.0"
   }
 }
