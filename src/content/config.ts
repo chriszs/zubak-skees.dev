@@ -1,7 +1,7 @@
-import { z, defineCollection } from "astro:content";
+import { z, defineCollection } from 'astro:content';
 
 const exampleCollection = defineCollection({
-    type: "content",
+    type: 'content',
     schema: ({ image }) =>
         z.object({
             title: z.string(),
@@ -15,6 +15,18 @@ const exampleCollection = defineCollection({
         }),
 });
 
+const linkCollection = defineCollection({
+    type: 'content',
+    schema: () =>
+        z.object({
+            title: z.string(),
+            icon: z.string(),
+            url: z.string().url(),
+            sortOrder: z.number().int(),
+        }),
+});
+
 export const collections = {
     examples: exampleCollection,
+    links: linkCollection,
 };

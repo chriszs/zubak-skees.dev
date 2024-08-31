@@ -1,21 +1,22 @@
 ---
-import { getCollection, type CollectionEntry } from "astro:content";
+import { getCollection } from "astro:content";
 
 import Layout from "../layouts/Layout.astro";
-
-import config from "../../assets/config.yml";
 
 import Examples from "../components/examples.astro";
 import Top from "../components/top.vue";
 import Links from "../components/links.vue";
 
 const examples = await getCollection("examples");
+const links = await getCollection("links");
 
-const examplesData = examples.map((example: CollectionEntry) => example.data);
+const examplesData = examples.map((example) => example.data);
+const linksData = links.map((link) => link.data);
 
 const examplesSorted = examplesData.sort(
   (a: any, b: any) => a.sortOrder - b.sortOrder
 );
+const linksSorted = linksData.sort((a: any, b: any) => a.sortOrder - b.sortOrder);
 ---
 
 <Layout title="Chris Zubak-Skees">
@@ -23,11 +24,11 @@ const examplesSorted = examplesData.sort(
     <Top />
 
     <div class="container">
-      <h1>{config.name}</h1>
+      <h1>Chris Zubak-Skees</h1>
 
-      <p>{config.chatter}</p>
+      <p>Software, design and data journalism</p>
 
-      <Links links={config.links} />
+      <Links links={linksSorted} />
 
       <!--
             <p class="emailMeContainer">

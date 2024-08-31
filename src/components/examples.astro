@@ -3,96 +3,102 @@ import type { CollectionEntry } from "astro:content";
 import Example from "./example.astro";
 import Tag from "./tag.astro";
 
+interface Props {
+    examples: CollectionEntry<"examples">['data'][];
+}
+
 const { examples } = Astro.props;
 ---
 
 <div class="examples">
-  <div class="tags">
-    I do &#8230;
+    <div class="tags">
+        I do &#8230;
 
-    {
-      [...new Set(examples.flatMap((data: any, i: number) => data.tags))].map(
-        (tag: string) => <Tag tag={tag} />
-      )
-    }
-  </div>
+        {
+            [
+                ...new Set(
+                    examples.flatMap((data) => data.tags)
+                ),
+            ].map((tag: string) => <Tag tag={tag} />)
+        }
+    </div>
 
-  {examples.map((data: any, i: number) => <Example {...data} index={i} />)}
+    {examples.map((data, i: number) => <Example {...data} index={i} />)}
 </div>
 
 <style>
-  .examples {
-    max-width: 1050px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 40px;
-    padding-top: 15px;
-  }
-
-  .examples:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .tags {
-    margin-bottom: 10px;
-    margin-left: 5px;
-    font-size: 14px;
-  }
-
-  @media (max-width: 650px) {
     .examples {
-      margin-left: 25px;
-      margin-right: 25px;
-      /* width: 300px; */
+        max-width: 1050px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 40px;
+        padding-top: 15px;
     }
-  }
+
+    .examples:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .tags {
+        margin-bottom: 10px;
+        margin-left: 5px;
+        font-size: 14px;
+    }
+
+    @media (max-width: 650px) {
+        .examples {
+            margin-left: 25px;
+            margin-right: 25px;
+            /* width: 300px; */
+        }
+    }
 </style>
 
 <script>
-  import { tagClass } from "../utils/tags.ts";
+    import { tagClass } from "../utils/tags.ts";
 
-  let selectedTag: string = "";
+    let selectedTag: string = "";
 
-  const tags = document.querySelectorAll(".tag");
+    const tags = document.querySelectorAll(".tag");
 
-  tags.forEach((tag) => {
-    tag.addEventListener("click", (event: Event) => {
-      event.preventDefault();
+    tags.forEach((tag) => {
+        tag.addEventListener("click", (event: Event) => {
+            event.preventDefault();
 
-      const target = event.target;
-      if (target && "textContent" in target) {
-        const tag = String(target.textContent);
+            const target = event.target;
+            if (target && "textContent" in target) {
+                const tag = String(target.textContent);
 
-        if (tag === selectedTag) {
-          selectedTag = "";
-        } else {
-          selectedTag = tag;
-        }
+                if (tag === selectedTag) {
+                    selectedTag = "";
+                } else {
+                    selectedTag = tag;
+                }
 
-        document.querySelectorAll(`.tag`).forEach((el) => {
-          if (
-            selectedTag !== "" &&
-            el.classList.contains(tagClass(selectedTag))
-          ) {
-            el.classList.add("active");
-          } else {
-            el.classList.remove("active");
-          }
+                document.querySelectorAll(`.tag`).forEach((el) => {
+                    if (
+                        selectedTag !== "" &&
+                        el.classList.contains(tagClass(selectedTag))
+                    ) {
+                        el.classList.add("active");
+                    } else {
+                        el.classList.remove("active");
+                    }
+                });
+
+                document.querySelectorAll(".example").forEach((el) => {
+                    if (
+                        selectedTag === "" ||
+                        el.classList.contains(tagClass(selectedTag))
+                    ) {
+                        el.classList.remove("hidden");
+                    } else {
+                        el.classList.add("hidden");
+                    }
+                });
+            }
         });
-
-        document.querySelectorAll(".example").forEach((el) => {
-          if (
-            selectedTag === "" ||
-            el.classList.contains(tagClass(selectedTag))
-          ) {
-            el.classList.remove("hidden");
-          } else {
-            el.classList.add("hidden");
-          }
-        });
-      }
     });
-  });
 </script>
