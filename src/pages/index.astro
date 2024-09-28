@@ -10,27 +10,26 @@ import Links from "../components/links.vue";
 const examples = await getCollection("examples");
 const links = await getCollection("links");
 
-const examplesData = examples.map((example) => example.data);
-const linksData = links.map((link) => link.data);
-
-const examplesSorted = examplesData.sort(
-  (a: any, b: any) => a.sortOrder - b.sortOrder
+const examplesSorted = examples.sort(
+    (a, b) => a.data.sortOrder - b.data.sortOrder
 );
-const linksSorted = linksData.sort((a: any, b: any) => a.sortOrder - b.sortOrder);
+const linksSorted = links
+    .map(({ data }) => data)
+    .sort((a, b) => a.sortOrder - b.sortOrder);
 ---
 
 <Layout title="Chris Zubak-Skees">
-  <main>
-    <Top />
+    <main>
+        <Top />
 
-    <div class="container">
-      <h1>Chris Zubak-Skees</h1>
+        <div class="container">
+            <h1>Chris Zubak-Skees</h1>
 
-      <p>Software, design and data journalism</p>
+            <p>Software, design and data journalism</p>
 
-      <Links links={linksSorted} />
+            <Links links={linksSorted} />
 
-      <!--
+            <!--
             <p class="emailMeContainer">
                 Want to get in touch?&nbsp;&nbsp;
                 <a
@@ -39,51 +38,51 @@ const linksSorted = linksData.sort((a: any, b: any) => a.sortOrder - b.sortOrder
                 ><i class="fa fa-paper-plane" /> Email me</a>
             </p>
             -->
-    </div>
+        </div>
 
-    <Examples examples={examplesSorted} />
-  </main>
+        <Examples examples={examplesSorted} />
+    </main>
 </Layout>
 
 <style>
-  h1 {
-    margin: 0;
-    margin-bottom: 0;
-    line-height: 110%;
-  }
+    h1 {
+        margin: 0;
+        margin-bottom: 0;
+        line-height: 110%;
+    }
 
-  .container {
-    padding-top: 30px;
-    padding-bottom: 15px;
-    max-width: 1050px;
-    /* max-width: 940px; */
-    margin-right: auto;
-    margin-left: auto;
-    color: rgb(50, 50, 50);
-    font-size: 200%;
-    text-align: center;
-  }
+    .container {
+        padding-top: 30px;
+        padding-bottom: 15px;
+        max-width: 1250px;
+        /* max-width: 940px; */
+        margin-right: auto;
+        margin-left: auto;
+        color: rgb(50, 50, 50);
+        font-size: 200%;
+        text-align: center;
+    }
 
-  .container p {
-    margin-top: 5px;
-    font-size: 80%;
-    max-width: 70%;
-    margin-right: auto;
-    margin-left: auto;
-  }
+    .container p {
+        margin-top: 5px;
+        font-size: 80%;
+        max-width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
-  .emailMe {
-    border: 1px solid rgb(200, 200, 200);
-    border-radius: 2px;
-    display: inline-block;
-    padding: 5px;
-    font-size: 16px;
-    padding-right: 10px;
-  }
+    .emailMe {
+        border: 1px solid rgb(200, 200, 200);
+        border-radius: 2px;
+        display: inline-block;
+        padding: 5px;
+        font-size: 16px;
+        padding-right: 10px;
+    }
 
-  .emailMeContainer {
-    font-size: 16px;
-    margin-top: 25px;
-    margin-bottom: 0;
-  }
+    .emailMeContainer {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
 </style>

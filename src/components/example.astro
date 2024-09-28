@@ -4,171 +4,203 @@ import { Image } from "astro:assets";
 import Tag from "./tag.astro";
 import { tagClass } from "../utils/tags";
 
-const { tags, url, title, org, img, description, index } = Astro.props;
+const { tags, url, title, org, img, description, index, slug } = Astro.props;
 ---
 
 <div class={`example ${tags.map((tag: string) => tagClass(tag)).join(" ")}`}>
-  <a href={url}>
-    <div class="exampleContainer">
-      <div class="exampleImageContainer">
-        <Image
-          class="exampleImage"
-          src={img}
-          alt=""
-          loading={index < 2 ? "eager" : "lazy"}
-        />
-      </div>
+    <a href={`/example/${slug}`}>
+        <div class="exampleContainer">
+            <div class="exampleImageContainer">
+                <Image
+                    class="exampleImage"
+                    src={img}
+                    alt=""
+                    loading={index < 3 ? "eager" : "lazy"}
+                />
+            </div>
 
-      <div class="exampleText">
-        <p class="org">
-          {org}
-        </p>
+            <div class="tags">
+                {tags.map((tag: string) => <Tag tag={tag} />)}
+            </div>
 
-        <h2>
-          {title}
-        </h2>
+            <div class="exampleText">
+                <div>
+                    <p class="org">
+                        {org}
+                    </p>
+                </div>
 
+                <h2>
+                    {title}
+                </h2>
+
+                <!--
         <p class="description">
           {description}
         </p>
-
-        {tags.map((tag: string) => <Tag tag={tag} />)}
-      </div>
-    </div>
-  </a>
+        -->
+            </div>
+        </div>
+    </a>
 </div>
 
 <style>
-  a {
-    text-decoration: none;
-  }
-
-  a:hover h2 {
-    text-decoration: underline;
-  }
-
-  .exampleContainer {
-    /* border: 1px solid rgb(200,200,200); */
-    margin-bottom: 5px;
-    /*
-    float: left;
-    width: 22%; */
-    width: 100%;
-    padding: 1%;
-    background-color: white;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    border: 1px solid rgb(200, 200, 200);
-    box-shadow: 2px 2px rgb(220, 220, 220);
-  }
-
-  a:hover .exampleContainer {
-    box-shadow: 0px 0px rgb(220, 220, 220);
-  }
-
-  .exampleImageContainer {
-    position: relative;
-    width: 25%;
-    height: 180px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    transition: background-size 0.5s;
-    /* margin-top: 8px; */
-    float: left;
-    border-radius: 2px;
-  }
-
-  .exampleImage {
-    object-fit: cover;
-    object-position: left center;
-    width: 100%;
-    height: 100%;
-    border-radius: 5px;
-    filter: grayscale(20%);
-  }
-
-  a:hover .exampleImage {
-    filter: grayscale(0%);
-  }
-
-  .exampleText {
-    float: left;
-    width: 63%;
-    padding-left: 2%;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 400;
-  }
-
-  h2 {
-    /*
-    font-size: 16px;
-    height: 50px;
-    */
-    font-size: 150%;
-    margin: 0;
-    padding: 0;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    font-family: "Open Sans", sans-serif;
-    font-weight: 700;
-  }
-
-  .exampleContainer:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  .org {
-    font-size: 14px;
-    color: rgb(100, 100, 100);
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-
-  .description {
-    font-size: 15px;
-    line-height: 23px;
-    margin-top: 5px;
-    margin-bottom: 10px;
-  }
-
-  @media (max-width: 800px) {
-    .exampleContainer {
-      /*
-        width: 47%;
-        */
-      padding: 1%;
+    a {
+        text-decoration: none;
     }
-  }
 
-  @media (max-width: 650px) {
+    a:hover h2 {
+        /* text-decoration: underline; */
+        display: inline;
+    }
+
     .exampleContainer {
-      float: none;
-      width: 100%;
-      padding: 0;
+        position: relative;
+        /* border: 1px solid rgb(200,200,200); */
+        margin: 0.8%;
+        /*
+        float: left;
+        width: 22%; */
+        width: 100%;
+        border-radius: 15px;
+        width: 31%;
+        float: left;
+        background-color: #f4f2f2;
+    }
+
+    a:hover .exampleContainer {
+        box-shadow: 0px 0px rgb(220, 220, 220);
+    }
+
+    .exampleImageContainer {
+        position: relative;
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        transition: background-size 0.5s;
+        /* margin-top: 8px; */
+        float: left;
+        border-radius: 2px;
+    }
+
+    .exampleImage {
+        object-fit: cover;
+        object-position: left center;
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        /*
+        filter: scale(1);
+        transition: transform .2s;
+        */
+    }
+
+    /*
+    a:hover .exampleImage {
+        filter: scale(1.5);
+    }
+    */
+
+    .exampleText {
+        position: absolute;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        padding: 10px;
+        bottom: 0;
+    }
+
+    .tags {
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        padding: 10px;
+    }
+
+    h2 {
+        /*
+        font-size: 16px;
+        height: 50px;
+        */
+        font-size: 180%;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 5px;
+        margin-top: 5px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        background-color: #f4f2f2;
+        color: rgb(32, 32, 32);
+        display: none;
+        box-shadow:
+            0.2em 0 0 #f4f2f2,
+            -0.2em 0 0 #f4f2f2;
+    }
+
+    .exampleContainer:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .org {
+        font-size: 14px;
+        color: rgb(100, 100, 100);
+        margin-top: 5px;
+        margin-bottom: 5px;
+        background-color: #f4f2f2;
+        padding: 2px;
+        display: inline;
+        box-shadow:
+            0.2em 0 0 #f4f2f2,
+            -0.2em 0 0 #f4f2f2;
     }
 
     .description {
-      font-size: 13px;
-      line-height: 22px;
+        font-size: 15px;
+        line-height: 23px;
+        margin-top: 5px;
+        margin-bottom: 10px;
     }
 
-    .exampleImageContainer,
-    .exampleText {
-      width: 100%;
-      float: none;
+    @media (max-width: 800px) {
+        .exampleContainer {
+            /*
+        width: 47%;
+        */
+            padding: 1%;
+        }
     }
 
-    .exampleText {
-      margin-top: 10px;
-      width: 95%;
-      margin-top: 0;
-      padding: 15px;
-    }
+    @media (max-width: 650px) {
+        .exampleContainer {
+            float: none;
+            width: 100%;
+            padding: 0;
+        }
 
-    .tag {
-      line-height: 25px;
+        .description {
+            font-size: 13px;
+            line-height: 22px;
+        }
+
+        .exampleImageContainer,
+        .exampleText {
+            width: 100%;
+            float: none;
+        }
+
+        .exampleText {
+            margin-top: 10px;
+            width: 95%;
+            margin-top: 0;
+            padding: 15px;
+        }
+
+        .tag {
+            line-height: 25px;
+        }
     }
-  }
 </style>

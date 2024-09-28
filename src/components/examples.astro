@@ -4,7 +4,7 @@ import Example from "./example.astro";
 import Tag from "./tag.astro";
 
 interface Props {
-    examples: CollectionEntry<"examples">['data'][];
+    examples: CollectionEntry<"examples">[];
 }
 
 const { examples } = Astro.props;
@@ -17,18 +17,18 @@ const { examples } = Astro.props;
         {
             [
                 ...new Set(
-                    examples.flatMap((data) => data.tags)
+                    examples.flatMap(({data}) => data.tags)
                 ),
             ].map((tag: string) => <Tag tag={tag} />)
         }
     </div>
 
-    {examples.map((data, i: number) => <Example {...data} index={i} />)}
+    {examples.map((example, i: number) => <Example slug={example.slug} {...example.data} index={i} />)}
 </div>
 
 <style>
     .examples {
-        max-width: 1050px;
+        max-width: 1250px;
         margin-right: auto;
         margin-left: auto;
         margin-bottom: 40px;

@@ -1,0 +1,61 @@
+---
+import { Image } from "astro:assets";
+
+import { getCollection } from "astro:content";
+
+import Layout from "../../layouts/Layout.astro";
+
+import Top from "../../components/top.vue";
+import Example from "../../components/example.astro";
+
+export async function getStaticPaths() {
+    const blogEntries = await getCollection("examples");
+    return blogEntries.map((entry) => ({
+        params: { slug: entry.slug },
+        props: { entry },
+    }));
+}
+
+const { entry } = Astro.props;
+// const { Content } = await entry.render();
+---
+
+<Layout title="Chris Zubak-Skees">
+    <main>
+        <Top />
+
+        <div class="container">
+            <h1>Chris Zubak-Skees</h1>
+        </div>
+
+        <Image
+            class="exampleImage"
+            src={entry.data.img}
+            alt=""
+        />
+
+        <h2>{entry.data.title}</h2>
+
+        <p>{entry.data.description}</p>
+    </main>
+</Layout>
+
+<style>
+    h1 {
+        margin: 0;
+        margin-bottom: 0;
+        line-height: 110%;
+    }
+
+    .container {
+        padding-top: 30px;
+        padding-bottom: 15px;
+        max-width: 1250px;
+        /* max-width: 940px; */
+        margin-right: auto;
+        margin-left: auto;
+        color: rgb(50, 50, 50);
+        font-size: 200%;
+        text-align: center;
+    }
+</style>
