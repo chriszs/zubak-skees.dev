@@ -11,18 +11,6 @@ const { examples } = Astro.props;
 ---
 
 <div class="examples">
-    <div class="tags">
-        I do &#8230;
-
-        {
-            [
-                ...new Set(
-                    examples.flatMap((data) => data.tags)
-                ),
-            ].map((tag: string) => <Tag tag={tag} />)
-        }
-    </div>
-
     {examples.map((data, i: number) => <Example {...data} index={i} />)}
 </div>
 

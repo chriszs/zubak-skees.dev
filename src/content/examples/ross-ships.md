@@ -2,13 +2,12 @@
 title: Wilbur Ross will shepherd Trump’s trade policy. Should he also own a shipping firm?
 org: Center for Public Integrity
 description: >-
-    Built a map using Mapbox.js to display millions of ship locations collected by satellites, found a cabinet secretary's
-    shipping firm docked in Iran at the height of sanctions, designed graphics for the resulting story.
+    Analyzed millions of locations collected by satellites to track the shipping firm owned by a trade-advising cabinet secretary as it did business in the Yangtze River and at tranfser points near the Black Sea. With the help of maps I built and the records of a Hong Kong maritime investigation, found a ship which docked in Iran at the height of sanctions.
 tags:
     - data processing & analysis
     - graphics & design
 img: ./img/ross.png
-url: https://archive.publicintegrity.org/politics/wilbur-ross-will-shepherd-trumps-trade-policy-should-he-also-own-a-shipping-firm/
+url: https://web.archive.org/web/20240319045121/https://archive.publicintegrity.org/politics/wilbur-ross-will-shepherd-trumps-trade-policy-should-he-also-own-a-shipping-firm
 date: 2017-03-23
-sortOrder: 13
+sortOrder: 2
 ---
