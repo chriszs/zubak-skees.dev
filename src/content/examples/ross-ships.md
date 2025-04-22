@@ -2,7 +2,7 @@
 title: Wilbur Ross will shepherd Trump’s trade policy. Should he also own a shipping firm?
 org: Center for Public Integrity
 description: >-
-    Analyzed millions of locations collected by satellites to track the shipping firm owned by a trade-advising cabinet secretary as it did business in the Yangtze River and at tranfser points near the Black Sea. With the help of maps I built and the records of a Hong Kong maritime investigation, found a ship which docked in Iran at the height of sanctions.
+    Analyzed millions of locations collected by satellites to track the shipping firm owned by a cabinet secretary whose ships sailed up the Yangtze River and to transfer points by the Black Sea. With the help of maps I built, driven by geospatial data, I found records from a Hong Kong maritime investigation which showed a ship docked in Iran at the height of sanctions.
 tags:
     - data processing & analysis
     - graphics & design
