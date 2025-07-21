@@ -31,6 +31,8 @@ const { tags, url, title, org, img, description, index } = Astro.props;
         <p class="description">
           {description}
         </p>
+
+        {tags.map((tag: string) => <Tag tag={tag} />)}
       </div>
     </div>
   </a>
