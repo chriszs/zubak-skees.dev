@@ -10,7 +10,7 @@ description: >-
     charitable solicitation operation with a reporter. Built graphics to tell the
     story.
 img: ./img/pacnetwork.png
-url: https://archive.publicintegrity.org/politics/charitable-contributions/
+url: https://web.archive.org/web/20240319134411/https://archive.publicintegrity.org/politics/charitable-contributions/
 date: 2018-12-23
 sortOrder: 8
 ---

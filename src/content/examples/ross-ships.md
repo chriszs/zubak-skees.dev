@@ -8,7 +8,7 @@ tags:
     - data processing & analysis
     - graphics & design
 img: ./img/ross.png
-url: https://archive.publicintegrity.org/politics/wilbur-ross-will-shepherd-trumps-trade-policy-should-he-also-own-a-shipping-firm/
+url: "https://web.archive.org/web/20240319045121/https://archive.publicintegrity.org/politics/wilbur-ross-will-shepherd-trumps-trade-policy-should-he-also-own-a-shipping-firm"
 date: 2017-03-23
 sortOrder: 13
 ---
