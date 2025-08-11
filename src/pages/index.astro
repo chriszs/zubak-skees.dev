@@ -14,23 +14,27 @@ const examplesData = examples.map((example) => example.data);
 const linksData = links.map((link) => link.data);
 
 const examplesSorted = examplesData.sort(
-  (a: any, b: any) => a.sortOrder - b.sortOrder
+    (a: any, b: any) => a.sortOrder - b.sortOrder
 );
-const linksSorted = linksData.sort((a: any, b: any) => a.sortOrder - b.sortOrder);
+const linksSorted = linksData.sort(
+    (a: any, b: any) => a.sortOrder - b.sortOrder
+);
 ---
 
 <Layout title="Chris Zubak-Skees">
-  <main>
-    <Top />
+    <main>
+        <Top />
 
-    <div class="container">
-      <h1>Chris Zubak-Skees</h1>
+        <div class="container">
+            <h1>Chris Zubak-Skees</h1>
 
-      <p>Software, design and data journalism</p>
+            <!--
+            <h2>Software, design and data journalism</h2>
+             -->
 
-      <Links links={linksSorted} />
+            <Links links={linksSorted} />
 
-      <!--
+            <!--
             <p class="emailMeContainer">
                 Want to get in touch?&nbsp;&nbsp;
                 <a
@@ -39,51 +43,120 @@ const linksSorted = linksData.sort((a: any, b: any) => a.sortOrder - b.sortOrder
                 ><i class="fa fa-paper-plane" /> Email me</a>
             </p>
             -->
-    </div>
+        </div>
 
-    <Examples examples={examplesSorted} />
-  </main>
+        <div class="container intro">
+            <p>
+                Hi, I'm Chris! I'm a software developer with a background in
+                graphics and data journalism. I build software and data systems that help organizations
+                tell stories, find insights and make decisions.
+            </p>
+            <p>
+                Lately, I’ve been building agentic AI systems which turn information
+                into insights. This is what I'm doing with the <strong
+                    >BBC World Service</strong
+                >, where I'm building an AI-powered system for social media
+                analysis to support cross-border investigations, and for a major philanthropy,
+                where I developed AI features that assist in efficiently finding and vetting
+                projects to fund.
+            </p>
+            <p>
+                Before that, I helped the <strong
+                    >Washington Post</strong
+                > show
+                real-time election results by collecting and processing data
+                from multiple sources.
+                I helped power real time election predictions
+                and my visualizations helped make sense of them. I also helped build
+                a prototype that used semantic search and generative AI to answer reader
+                questions with trusted journalism.
+            </p>
+            <p>
+                In between, I’ve freelanced for <strong>FiveThirtyEight</strong>
+                and <strong>ProPublica</strong> and done contract development for <strong
+                    >STAT</strong
+                >. For ProPublica, I contributed
+                to interactive graphics and improved a video processing pipeline.
+                For FiveThirtyEight, I processed large amounts of data for a visual story.
+                For STAT, I built a cross-platform mobile app.
+            </p>
+            <p>
+                Earlier in my career, I was a developer and data editor at the
+                <strong>Center for Public Integrity</strong>. There, my graphics
+                contributed to award-winning, impactful investigations and to an offshore
+                leaks project with the <strong
+                    >International Consortium of Investigative Journalists (ICIJ)</strong
+                >. As data editor, I was responsible for bulletproofing data
+                analyses, leading data collection, and editing
+                graphics. I contributed graphics to a project that won a Pulitzer, and my bylines appeared in numerous publications.
+                Most importantly, our investigations got impact.
+            </p>
+            <!--
+            <p>
+                I completed a data reporting fellowship at the <strong
+                    >Sunlight Foundation</strong
+                >, where I contributed data analysis and covered political
+                influence.
+            </p>
+            <p>
+                At the Rochester Institute of Technology, from which I graduated
+                with a degree in journalism and minor in computer science, I was
+                a writer and editor at the weekly <strong
+                    >Reporter Magazine</strong
+                >, where I also built innovative multimedia projects.
+            </p>
+             -->
+        </div>
+
+        <Examples examples={examplesSorted} />
+    </main>
 </Layout>
 
 <style>
-  h1 {
-    margin: 0;
-    margin-bottom: 0;
-    line-height: 110%;
-  }
+    h1 {
+        margin: 0;
+        margin-bottom: 0;
+        line-height: 110%;
+    }
 
-  .container {
-    padding-top: 30px;
-    padding-bottom: 15px;
-    max-width: 1050px;
-    /* max-width: 940px; */
-    margin-right: auto;
-    margin-left: auto;
-    color: rgb(50, 50, 50);
-    font-size: 200%;
-    text-align: center;
-  }
+    .container {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        max-width: 1050px;
+        /* max-width: 940px; */
+        margin-right: auto;
+        margin-left: auto;
+        color: rgb(50, 50, 50);
+        font-size: 200%;
+        text-align: center;
+    }
 
-  .container p {
-    margin-top: 5px;
-    font-size: 80%;
-    max-width: 70%;
-    margin-right: auto;
-    margin-left: auto;
-  }
+    .container p {
+        margin-top: 5px;
+        font-size: 80%;
+        max-width: 70%;
+        margin-right: auto;
+        margin-left: auto;
+    }
 
-  .emailMe {
-    border: 1px solid rgb(200, 200, 200);
-    border-radius: 2px;
-    display: inline-block;
-    padding: 5px;
-    font-size: 16px;
-    padding-right: 10px;
-  }
+    .intro p {
+        font-size: 51%;
+        line-height: 1.5;
+        text-align: left;
+    }
 
-  .emailMeContainer {
-    font-size: 16px;
-    margin-top: 25px;
-    margin-bottom: 0;
-  }
+    .emailMe {
+        border: 1px solid rgb(200, 200, 200);
+        border-radius: 2px;
+        display: inline-block;
+        padding: 5px;
+        font-size: 16px;
+        padding-right: 10px;
+    }
+
+    .emailMeContainer {
+        font-size: 16px;
+        margin-top: 25px;
+        margin-bottom: 0;
+    }
 </style>
